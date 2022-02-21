@@ -17,7 +17,7 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: ${{ matrix.node-version }}
-              env:
-                  TWITCH_OAUTH_TOKEN: ${{ secrets.TWITCH_OAUTH_TOKEN }}
             - run: npm i --dev
-            - run: npm test TWITCH_OAUTH_TOKEN
+              env:
+                TWITCH_OAUTH_TOKEN: ${{ secrets.TWITCH_OAUTH_TOKEN }}
+            - run: npm test
