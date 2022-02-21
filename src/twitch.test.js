@@ -301,7 +301,7 @@ describe("Queries", () => {
         };
 
         (async () => {
-            let data = await TwitchGQL._SendQuery("Inventory", {}, '27f074f54ff74e0b05c8244ef2667180c2f911255e589ccd693a1a52ccca7367', 'OAuth YOUR_TOKEN', true)
+            let data = await TwitchGQL._SendQuery("Inventory", {}, '27f074f54ff74e0b05c8244ef2667180c2f911255e589ccd693a1a52ccca7367', process.env.TWITCH_OAUTH_TOKEN, true)
             const user = data[0].data.currentUser;
 
             TestMisc.CheckModel(user, UserModel);
