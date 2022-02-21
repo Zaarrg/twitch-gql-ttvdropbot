@@ -1,0 +1,1539 @@
+[
+    {
+        "data": {
+            "user": {
+                "id": "71092938",
+                "videos": {
+                    "edges": [
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/0f2fb965bc49f04b8050_xqcow_45605637373_1645431541/storyboards/1305217178-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1305217178",
+                                "lengthSeconds": 52265,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://vod-secure.twitch.tv/_404/404_processing_320x180.png",
+                                "publishedAt": "2022-02-21T08:19:06Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
+                                "viewCount": 58507,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/a99b9ca0d4c65bce20e8_xqcow_45577566445_1645237138/storyboards/1302715003-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1302715003",
+                                "lengthSeconds": 76573,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/a99b9ca0d4c65bce20e8_xqcow_45577566445_1645237138//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-19T02:19:04Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "WOWOWOWOW INSANE POGU CHASING JUICER GOES ABSOLUTE BONKERS ON THE BROADCAST (INCREDIBLE) COME SEE IT HAPPEN IN REAL TIME\n",
+                                "viewCount": 3544603,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/947ec3062d9c9b93c42f_xqcow_45564178957_1645144427/storyboards/1301477362-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1301477362",
+                                "lengthSeconds": 36470,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/947ec3062d9c9b93c42f_xqcow_45564178957_1645144427//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-18T00:33:53Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(CLICK NOW) SOMETHING INCREDIBLE IS HAPPENING (OMG) I CANT BELIEVE IT AND YOU WILL NOT TOO. GOLEM GOES MAD-MODE AND CONQUERS THE INTERNET !!",
+                                "viewCount": 1579077,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/932f629fb783d417932e_xqcow_45552995901_1645059951/storyboards/1300453355-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1300453355",
+                                "lengthSeconds": 37936,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/932f629fb783d417932e_xqcow_45552995901_1645059951//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-17T01:05:57Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "MAN UNABLE TO LOSE IN ANY VIDEO GAME GOES LIVE TO SHOW THE WORLD WHAT THE FUDGE IS UP AND GOES INSANE MALD-MODE CRACKED GOLEM LIVE NOW!\n",
+                                "viewCount": 1617831,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/2e2eb5ea0c28834a96f7_xqcow_45539843853_1644963865/storyboards/1299241418-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1299241418",
+                                "lengthSeconds": 44056,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/2e2eb5ea0c28834a96f7_xqcow_45539843853_1644963865//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-15T22:24:31Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "ENORMOUS JUICER DAY INSANE CRAZED NUTS. MONSTER TITANLORD PHARAOH OGRE BOSS GOES HARD EVERYWHERE. ALSO, CASINO FINALE DAY (REAL)\n",
+                                "viewCount": 2276255,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/44d8ec5b7c4067934aeb_xqcow_45530987325_1644889844/storyboards/1298434841-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1298434841",
+                                "lengthSeconds": 27310,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/44d8ec5b7c4067934aeb_xqcow_45530987325_1644889844//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-15T01:50:50Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "MAN - LONG STREAM? IDK? WHAT IS UP? CLICK HERE? MAYBE? CLICK HERE NOW DONT BE WEIRD\n",
+                                "viewCount": 1239075,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/2b5cdf19f86046c3af6b_xqcow_45517206093_1644781855/storyboards/1297194978-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1297194978",
+                                "lengthSeconds": 43105,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/2b5cdf19f86046c3af6b_xqcow_45517206093_1644781855//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-13T19:51:01Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "WAR IS HERE. CHILL THEN CASINO FINALE *REAL* *NOT COPE*. ROBBING THE CASINO AND PUTTING UP THE MOST EPIC FIGHT OF THE YEAR NICE AHAHAHAHAHAH",
+                                "viewCount": 3012096,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/f7fb67171e937f1f4f8d_xqcow_45495006877_1644632821/storyboards/1295247947-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1295247947",
+                                "lengthSeconds": 86493,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/f7fb67171e937f1f4f8d_xqcow_45495006877_1644632821//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-12T02:27:07Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "NEW HOUSE (#2947854) HAH! INSANE SKELETAL WARLORDIAN MOUTAIN KING JUICELORD COMES BACK TO PLAY AND WATCH GAMES NOT 1 VIEWER ASKED FOR (REAL)",
+                                "viewCount": 4595380,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/2667465010472cb7ed84_xqcow_45468223949_1644438294/storyboards/1292713604-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1292713604",
+                                "lengthSeconds": 38476,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/2667465010472cb7ed84_xqcow_45468223949_1644438294//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-09T20:25:00Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(LIVE) CLICK NOW! BORED? CLICK HERE ASAP. BIGGEST DAY OF ALL TIME. FINAL DAY OF THE CASINO ROBBERY. ABSOLUTE GAMING WARLORD BREAKS THE VAULT",
+                                "viewCount": 2841313,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/f304e7fba137d4034046_xqcow_45458828461_1644364259/storyboards/1291814358-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1291814358",
+                                "lengthSeconds": 36356,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/f304e7fba137d4034046_xqcow_45458828461_1644364259//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-08T23:51:05Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(LIVE) NEW HOUSE (SETUP #9,302) INSANE JUICER DOES THINGS THAT NOT A SINGLE PERSON ASKED FOR (WHO ASKED?) CONTENT SCRAPYARD GOBLIN WARLORD",
+                                "viewCount": 1905158,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/8d4e9dbcfd0d6c326a09_xqcow_45431375165_1644157507/storyboards/1289114856-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1289114856",
+                                "lengthSeconds": 69130,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/8d4e9dbcfd0d6c326a09_xqcow_45431375165_1644157507//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-06T14:25:12Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "YOU KNOW WHAT TIME IT IS! AHHHAHAHAH! CLICK HERE NOW! WOAH I CANT BELIEVE ITS THAT TIME AGAIN, SO MANY THINGS TO DO SO MANYT HINGS TO ......",
+                                "viewCount": 4204080,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/8f4de10076726330948f_xqcow_45410878029_1644021774/storyboards/1287279952-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1287279952",
+                                "lengthSeconds": 36130,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/8f4de10076726330948f_xqcow_45410878029_1644021774//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-05T00:42:59Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "BIGGEST MOST INSANE JUICE. MAX FOCUS ROCK SOLICK HERE NOW FOR THE MOST RAFINED PUREST JUICE TO EVER COME ACROSS THE INTERNET AHAHAHA! HEHEHE",
+                                "viewCount": 2098570,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/a438fd2d31a90145a619_xqcow_45391358893_1643892715/storyboards/1285440134-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1285440134",
+                                "lengthSeconds": 64830,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/a438fd2d31a90145a619_xqcow_45391358893_1643892715//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-03T12:52:00Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "BIG JUICER AHAHAHAHAHAHAHAHAHAAHAH WOW THIS IS SO FUN THIS TIMELINE IS THE BEST SO FAR. I CANT BELIEVE WE ARE HERE AGAIN! WOOOHOOOOOOOOOOOOO",
+                                "viewCount": 3646132,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/542adfc18b8f916a8e46_xqcow_45375472829_1643770172/storyboards/1284048914-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-40x56.jpg",
+                                    "id": "32982",
+                                    "displayName": "Grand Theft Auto V",
+                                    "name": "Grand Theft Auto V",
+                                    "__typename": "Game"
+                                },
+                                "id": "1284048914",
+                                "lengthSeconds": 38040,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/542adfc18b8f916a8e46_xqcow_45375472829_1643770172//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-02-02T02:49:37Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(DRAMATIC STREAM) DEGEN HOURS - DEGEN CONTENT - NO ONE KNOWS WHAT IS UP ANYMORE. OMG OMG OMG OMG FKJHWEFKJHEWHEWQFKQJFHQEWJKFHEQWJKFEWQHFKJQ",
+                                "viewCount": 1755004,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Hype Train",
+                                        "tagName": "auto___hypetrain_hypetrain",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/60610eb28d6f647eebb2_xqcow_45353241949_1643599141/storyboards/1281979007-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1281979007",
+                                "lengthSeconds": 80856,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/60610eb28d6f647eebb2_xqcow_45353241949_1643599141//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-31T03:19:07Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(DRAMATIC STREAM) DEGEN HOURS - DEGEN CONTENT - NO ONE KNOWS WHAT IS UP ANYMORE. OMG OMG OMG OMG FKJHWEFKJHEWHEWQFKQJFHQEWJKFHEQWJKFEWQHFKJQ",
+                                "viewCount": 4256726,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/ee54e5680d15ea2ad6c2_xqcow_45335839805_1643485407/storyboards/1280340666-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1280340666",
+                                "lengthSeconds": 39624,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/ee54e5680d15ea2ad6c2_xqcow_45335839805_1643485407//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-29T19:43:32Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(INSANE DRAMA NEWS) CHILL AND REACT COZY STREAM UNTIL BIG FINAL CASINO PROGRESSION (CRAZY PROGRESSION) TODAY. I CANT BELIEVE IT!!!!! MASSIVE",
+                                "viewCount": 2661099,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/cab687f7d40c4e1264e9_xqcow_45298990013_1643238740/storyboards/1277068941-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1277068941",
+                                "lengthSeconds": 37219,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/cab687f7d40c4e1264e9_xqcow_45298990013_1643238740//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-26T23:12:25Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "REVEILING THE BIGGEST SECRETS IN THE WORLD - CASIN HEIST FIRST THEN INTRO AND CHILL ( JUST WOKE UP ) IM SO MALDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+                                "viewCount": 2507639,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/43d187e4a7070e9fb91c_xqcow_39380295401_1643085668/storyboards/1275206762-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1275206762",
+                                "lengthSeconds": 80598,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/43d187e4a7070e9fb91c_xqcow_39380295401_1643085668//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-25T04:41:13Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "STREAM UNTIL I BECOME A SKELETON OF OLD AGE (CONTENT DROUGHT = CONTENT GOLD MINE) LULW ANY LULERS? ANY LULERS. LULW AHAHAHAHAHA THIS IS FUN!",
+                                "viewCount": 4674434,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/7c125d38b13e21fd75f0_xqcow_39376105625_1642971165/storyboards/1273760015-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1273760015",
+                                "lengthSeconds": 37216,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/7c125d38b13e21fd75f0_xqcow_39376105625_1642971165//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-23T20:52:50Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "TODAY IS THE DAY (BIG THINGS ARE HAPPENING WOW. I CANT BELIEVE ALL OF THIS IS HAPPENING AND EVEN MORE WILL HAPENN AJAJAJ!!! WOWWWWWWWWWWWWWW",
+                                "viewCount": 3105396,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/5db789f4896a1bc18a85_xqcow_39371270553_1642844144/storyboards/1271999768-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1271999768",
+                                "lengthSeconds": 69798,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/5db789f4896a1bc18a85_xqcow_39371270553_1642844144//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-22T09:35:49Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "*RIDDLE SOLVED* CHILLING NIGHT TIME STREAM MAYBE FULL DAY JUICER DEGEN SCHEDULE EHEHEHEHHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHE",
+                                "viewCount": 4743069,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/ef69f811f654ec5d5ba2_xqcow_39367374441_1642745974/storyboards/1270745995-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1270745995",
+                                "lengthSeconds": 44723,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/ef69f811f654ec5d5ba2_xqcow_39367374441_1642745974//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-21T06:19:39Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "DAILY SLEEPO RESETO STREAMO (POG) AHAHAHAHAHAHA I CANT BELIEVE THIS ACTUALLY HAPPENED (CAN YOU BELIEVE THIS) WOW INSANE COME AND FIND OUT!!!",
+                                "viewCount": 2131893,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/8ce67412f0d85e07e2c6_xqcow_39363165289_1642638643/storyboards/1269381373-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1269381373",
+                                "lengthSeconds": 38216,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/8ce67412f0d85e07e2c6_xqcow_39363165289_1642638643//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-20T00:30:48Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "OMG - CASINO HEIST FINALE (DORA THE EXPLORATER) LATE ASF SO JUMPING RIGHT INTO IT. REACTLORD AND OTHER STUFF LATER (HEHEHEHE)",
+                                "viewCount": 2123310,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/89bcce03f80e915dd22c_xqcow_39359774905_1642543891/storyboards/1268183117-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1268183117",
+                                "lengthSeconds": 40468,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/89bcce03f80e915dd22c_xqcow_39359774905_1642543891//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-18T22:11:36Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "OMG MORE DRAMA (INSANELY SPICY) AND WOW SO EXCITING! ALSO MICROSOFT BOUGHT WHAT? BILL GATES WILL FIX OVERWATCH? I CANT BELIEVE THIS HAPPENED",
+                                "viewCount": 2358316,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/97437ad7c44b06a15943_xqcow_45163706845_1642295594/storyboards/1265091302-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1265091302",
+                                "lengthSeconds": 37248,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/97437ad7c44b06a15943_xqcow_45163706845_1642295594//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-16T01:13:22Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "COME TELL ME ABOUT YOUR DAY? HEY MAN HOW WAS YOUR DAY? DONOWALL. HEY MAN HOW IS IT IN THIS FINE DAY? DONOWALL. ARE YOU LISTENING? DONOWALL..",
+                                "viewCount": 2017617,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/c51a49e11a9d004bde55_xqcow_45117238589_1641970216/storyboards/1260995579-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1260995579",
+                                "lengthSeconds": 77624,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/c51a49e11a9d004bde55_xqcow_45117238589_1641970216//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-12T06:50:24Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "(DRAMA ONLY STREAM) BIG DRAMA TODAY! I CANT BELIEVE THIS HAPPENED! CLICK HERE TO FIND OUT WHAT IT IS (1 MILLION HOUR STREAM INBOUND HAHA!)))",
+                                "viewCount": 4362343,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        },
+                        {
+                            "cursor": null,
+                            "node": {
+                                "animatedPreviewURL": "https://d1m7jfoe9zdc1j.cloudfront.net/8c094eb424b003a74c57_xqcow_45102913837_1641865030/storyboards/1259758382-strip-0.jpg",
+                                "game": {
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                                    "id": "509658",
+                                    "displayName": "Just Chatting",
+                                    "name": "Just Chatting",
+                                    "__typename": "Game"
+                                },
+                                "id": "1259758382",
+                                "lengthSeconds": 28410,
+                                "owner": {
+                                    "displayName": "xQcOW",
+                                    "id": "71092938",
+                                    "login": "xqcow",
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqcow-profile_image-9298dca608632101-50x50.jpeg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/8c094eb424b003a74c57_xqcow_45102913837_1641865030//thumb/thumb0-320x180.jpg",
+                                "publishedAt": "2022-01-11T01:37:19Z",
+                                "self": {
+                                    "isRestricted": false,
+                                    "viewingHistory": null,
+                                    "__typename": "VideoSelfEdge"
+                                },
+                                "title": "I DONT EVEN KNOW WHAT IS AND WHAT IS NOT ANYMORE- SKELETON MAN CHILD FAILS AT EVERYTHING IN EVERY GAME UNTIL LUCK STRIKES FOR THE FIRST TIME",
+                                "viewCount": 1885999,
+                                "resourceRestriction": null,
+                                "contentTags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "VideoEdge"
+                        }
+                    ],
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "__typename": "PageInfo"
+                    },
+                    "__typename": "VideoConnection"
+                },
+                "__typename": "User"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 101,
+            "operationName": "FilterableVideoTower_Videos",
+            "requestID": "01FWF7NJRMG2C8BMA5NJY285EC"
+        }
+    }
+]

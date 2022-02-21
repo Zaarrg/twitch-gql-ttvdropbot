@@ -1,0 +1,28 @@
+{
+    "data": {
+        "user": {
+            "id": "94753024",
+            "login": "mizkif",
+            "displayName": "Mizkif",
+            "description": "https://www.tiktok.com/@realmizkif",
+            "createdAt": "2015-06-28T22:35:16.254782Z",
+            "roles": {
+                "isPartner": true
+            },
+            "stream": {
+                "id": "44773239916",
+                "title": "OTK PRESENTS SCHOOLED SEASON 2 BROUGHT TO YOU BY RAZER! | !Razer",
+                "type": "live",
+                "viewersCount": 72256,
+                "createdAt": "2022-02-21T20:14:07Z",
+                "game": {
+                    "name": "Just Chatting"
+                }
+            }
+        }
+    },
+    "extensions": {
+        "durationMilliseconds": 60,
+        "requestID": "01FWF7NMMVDEZDDADDZDE65PZJ"
+    }
+}

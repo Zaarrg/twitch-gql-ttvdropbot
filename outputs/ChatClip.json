@@ -1,0 +1,21 @@
+[
+    {
+        "data": {
+            "clip": {
+                "id": "1479466071",
+                "videoOffsetSeconds": 19305,
+                "durationSeconds": 59,
+                "video": {
+                    "id": "1294703006",
+                    "__typename": "Video"
+                },
+                "__typename": "Clip"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 42,
+            "operationName": "ChatClip",
+            "requestID": "01FWF7NMBEYXZFSZCYSEK9XN13"
+        }
+    }
+]

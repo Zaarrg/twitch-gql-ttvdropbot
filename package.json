@@ -1,0 +1,24 @@
+{
+  "name": "twitch-gql-ttvdropbot",
+  "version": "1.4.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jest": "^27.5.1",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaarrg/twitch-gql-ttvdropbot.git"
+  },
+  "author": "poespas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poespas/twitch-gql-ttvdropbot/issues"
+  },
+  "homepage": "https://github.com/Zaarrg/twitch-gql-ttvdropbot#readme"
+}

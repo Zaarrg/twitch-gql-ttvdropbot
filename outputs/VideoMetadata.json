@@ -1,0 +1,49 @@
+[
+    {
+        "data": {
+            "user": {
+                "id": "26261471",
+                "primaryColorHex": null,
+                "isPartner": true,
+                "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/asmongold-profile_image-f7ddcbd0332f5d28-70x70.png",
+                "lastBroadcast": {
+                    "id": "45596520157",
+                    "startedAt": "2022-02-21T01:11:08.198989Z",
+                    "__typename": "Broadcast"
+                },
+                "__typename": "User"
+            },
+            "currentUser": null,
+            "video": {
+                "id": "132195945",
+                "title": "Getting the Rank 1 Parse on Mythic Star Augur",
+                "description": "Almost 1 mil  ",
+                "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/68f20b3f31_asmongold_24919466208_626137133//thumb/thumb132195945-{width}x{height}.jpg",
+                "createdAt": "2017-03-30T10:23:09Z",
+                "viewCount": 85155,
+                "publishedAt": "2017-03-30T10:23:09Z",
+                "lengthSeconds": 512,
+                "broadcastType": "HIGHLIGHT",
+                "owner": {
+                    "id": "26261471",
+                    "login": "asmongold",
+                    "displayName": "Asmongold",
+                    "__typename": "User"
+                },
+                "game": {
+                    "id": "18122",
+                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/18122-{width}x{height}.jpg",
+                    "name": "World of Warcraft",
+                    "displayName": "World of Warcraft",
+                    "__typename": "Game"
+                },
+                "__typename": "Video"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 39,
+            "operationName": "VideoMetadata",
+            "requestID": "01FWF7NM29BZYQCDP789PRBG0Y"
+        }
+    }
+]

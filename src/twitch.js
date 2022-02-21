@@ -1,0 +1,63 @@
+const GraphQL = require("./graphql");
+
+const Twitch = {
+    SetClientID(ClientID) {
+        GraphQL.ClientID = ClientID;
+    },
+    GetUser(login, variables = {}) {
+        variables = {...variables, login};
+        return GraphQL.SendQuery("GET_USER", variables);
+    },
+    GetTopStreams(amount = 25, variables = {}) {
+        variables = {after: "", ...variables, amount};
+        return GraphQL.SendQuery("GET_TOP_STREAMS", variables);
+    },
+    GetVideos(login, variables = {}) {
+        let opts = {
+            broadcastType: "ARCHIVE",
+            channelOwnerLogin: login,
+            limit: 30,
+            videoSort: "TIME",
+            ...variables
+        }
+        return GraphQL.SendQuery("FilterableVideoTower_Videos", opts, '', '', true);
+    },
+    GetPlaybackAccessToken(vodID, variables = {}) {
+        let opts = {
+            isLive: false,
+            isVod: true,
+            login: "",
+            playerType: "channel_home_carousel",
+            vodID: vodID,
+            ...variables
+        };
+        return GraphQL.SendQuery("PlaybackAccessToken", opts, '', '', true);
+    },
+    GetVideoMoments(vodID, variables = {}) {
+        let opts = {
+            videoId: vodID,
+            ...variables
+        };
+        return GraphQL.SendQuery("VideoPreviewCard__VideoMoments", opts, '', '', true);
+    },
+    GetVideoMetadata(channelLogin, vodID, variables = {}) {
+        let opts = {
+            channelLogin,
+            videoID: vodID,
+            ...variables
+        };
+        return GraphQL.SendQuery("VideoMetadata", opts, '', '', true);
+    },
+    GetChatClip(clipSlug, variables = {}) {
+        let opts = {
+            clipSlug,
+            ...variables
+        };
+        return GraphQL.SendQuery("ChatClip", opts, '', '', true);
+    },
+    _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false) {
+        return GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
+    }
+};
+
+module.exports = Twitch;

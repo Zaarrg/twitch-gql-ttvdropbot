@@ -1,0 +1,74 @@
+[
+    {
+        "data": {
+            "video": {
+                "id": "1121890940",
+                "moments": {
+                    "edges": [
+                        {
+                            "cursor": "",
+                            "node": {
+                                "id": "4f8e5f14f144ddabbe8fa0714671941f",
+                                "durationMilliseconds": 11780000,
+                                "positionMilliseconds": 0,
+                                "type": "GAME_CHANGE",
+                                "description": "Just Chatting",
+                                "thumbnailURL": "",
+                                "details": {
+                                    "game": {
+                                        "id": "509658",
+                                        "displayName": "Just Chatting",
+                                        "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x53.jpg",
+                                        "__typename": "Game"
+                                    },
+                                    "__typename": "GameChangeMomentDetails"
+                                },
+                                "__typename": "VideoMoment",
+                                "video": {
+                                    "id": "1121890940",
+                                    "lengthSeconds": 22144,
+                                    "__typename": "Video"
+                                }
+                            },
+                            "__typename": "VideoMomentEdge"
+                        },
+                        {
+                            "cursor": "",
+                            "node": {
+                                "id": "9b867cfa3c45ace9d67dd0cd93ae3338",
+                                "durationMilliseconds": 10364000,
+                                "positionMilliseconds": 11780000,
+                                "type": "GAME_CHANGE",
+                                "description": "Sea of Thieves",
+                                "thumbnailURL": "",
+                                "details": {
+                                    "game": {
+                                        "id": "490377",
+                                        "displayName": "Sea of Thieves",
+                                        "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490377-40x53.jpg",
+                                        "__typename": "Game"
+                                    },
+                                    "__typename": "GameChangeMomentDetails"
+                                },
+                                "__typename": "VideoMoment",
+                                "video": {
+                                    "id": "1121890940",
+                                    "lengthSeconds": 22144,
+                                    "__typename": "Video"
+                                }
+                            },
+                            "__typename": "VideoMomentEdge"
+                        }
+                    ],
+                    "__typename": "VideoMomentConnection"
+                },
+                "__typename": "Video"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 39,
+            "operationName": "VideoPreviewCard__VideoMoments",
+            "requestID": "01FWF7NKS3F65FF006DXKK1GG7"
+        }
+    }
+]

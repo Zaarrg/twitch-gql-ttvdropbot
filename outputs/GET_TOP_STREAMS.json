@@ -1,0 +1,250 @@
+{
+    "data": {
+        "streams": {
+            "edges": [
+                {
+                    "cursor": "eyJzIjoxMTE0NDUuOTQ0MDE1NDAyNTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "45605637373",
+                        "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
+                        "viewersCount": 111445,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "xQcOW"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            },
+                            {
+                                "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                "localizedName": "ADHD"
+                            },
+                            {
+                                "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                "localizedName": "Anime"
+                            }
+                        ],
+                        "game": {
+                            "name": "Grand Theft Auto V"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo5MjkyMC4xNDk3OTUwMzE0NCwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "44772269756",
+                        "title": "Masterkill LoL ft. Squeezie, Kameto & Wao ! ",
+                        "viewersCount": 92920,
+                        "language": "FR",
+                        "broadcaster": {
+                            "displayName": "Gotaga"
+                        },
+                        "tags": [
+                            {
+                                "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                                "localizedName": "French"
+                            }
+                        ],
+                        "game": {
+                            "name": "League of Legends"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo3MjI1Ni41Njg3MDk2OTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "44773239916",
+                        "title": "OTK PRESENTS SCHOOLED SEASON 2 BROUGHT TO YOU BY RAZER! | !Razer",
+                        "viewersCount": 72256,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "Mizkif"
+                        },
+                        "tags": [
+                            {
+                                "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                                "localizedName": "Hype Train"
+                            },
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            },
+                            {
+                                "id": "1e95d7b4-8dac-4b5f-81d5-f963fdc5d989",
+                                "localizedName": "Leatherwork"
+                            },
+                            {
+                                "id": "52d7e4cc-633d-46f5-818c-bb59102d9549",
+                                "localizedName": "Vtuber"
+                            },
+                            {
+                                "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                "localizedName": "ADHD"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo1NDM1Mi44MDU2NDAyMzA2MSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "44772117324",
+                        "title": "В ОЖИДАНИИ... https://t.me/jesusavgntwitch",
+                        "viewersCount": 54352,
+                        "language": "RU",
+                        "broadcaster": {
+                            "displayName": "JesusAVGN"
+                        },
+                        "tags": [
+                            {
+                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                "localizedName": "Russian"
+                            }
+                        ],
+                        "game": {
+                            "name": "Politics"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo0OTAxMC43MDc4NjQ0MDM2NiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45611206269",
+                        "title": "SE VIENE LA PELEA DEL AÑO",
+                        "viewersCount": 49010,
+                        "language": "ES",
+                        "broadcaster": {
+                            "displayName": "momoladinastia"
+                        },
+                        "tags": [
+                            {
+                                "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                "localizedName": "Spanish"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozOTQwOC40MDE2NDkzNTY0NSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45609886941",
+                        "title": "I AM BACK AND THERES ALOT OF NEWS OMG",
+                        "viewersCount": 39408,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "HasanAbi"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozODkzMS4zNDkwNzQ5NjU4OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "40557274459",
+                        "title": "18+ NEED SOMETHING BIG TONIGHT, FML #ad | !twitter | !instagram | !podcast | !youtube",
+                        "viewersCount": 38931,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "Trainwreckstv"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "Slots"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozMzczNi44NDY0MTY2MjUxNiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "40558724843",
+                        "title": "Trio Arena mit ROHAT & SIDNEY danach Songbattle 🔥 | !eligella",
+                        "viewersCount": 33736,
+                        "language": "DE",
+                        "broadcaster": {
+                            "displayName": "eliasn97"
+                        },
+                        "tags": [
+                            {
+                                "id": "2a14b52e-d459-4c92-be11-5d86b898f6b6",
+                                "localizedName": "Squad Stream"
+                            },
+                            {
+                                "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                                "localizedName": "German"
+                            }
+                        ],
+                        "game": {
+                            "name": "Fortnite"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozMzAxMi42NzgwOTc3MjU3NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "44771695548",
+                        "title": "STREAMER COMPRA 1304 GRAFICAS PARA SU GRANJA DE MINERIA DE BITCOINS Y SALE MAL",
+                        "viewersCount": 33012,
+                        "language": "ES",
+                        "broadcaster": {
+                            "displayName": "Rubius"
+                        },
+                        "tags": [
+                            {
+                                "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                "localizedName": "Spanish"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozMTYwOC4xMzY2NzM3MTU5OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45608550845",
+                        "title": "HOY SE VE SHREK, SE COMPLETA DEAD RISING Y SE EMPIEZA A OLER ELDEN RING. BOBOBOFFFFF ✨✨✨",
+                        "viewersCount": 31608,
+                        "language": "ES",
+                        "broadcaster": {
+                            "displayName": "IlloJuan"
+                        },
+                        "tags": [
+                            {
+                                "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                "localizedName": "Spanish"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "durationMilliseconds": 55,
+        "requestID": "01FWF7NJEX07SKX0AGWW983Y02"
+    }
+}
