@@ -2,15 +2,15 @@
     {
         "data": {
             "videoPlaybackAccessToken": {
-                "value": "{\"authorization\":{\"forbidden\":false,\"reason\":\"\"},\"chansub\":{\"restricted_bitrates\":[]},\"device_id\":null,\"expires\":1645555838,\"https_required\":true,\"privileged\":false,\"user_id\":null,\"version\":2,\"vod_id\":132195945}",
-                "signature": "c0797c3453cc8656403a8c55425f7ff0b6b7cf31",
+                "value": "{\"authorization\":{\"forbidden\":false,\"reason\":\"\"},\"chansub\":{\"restricted_bitrates\":[]},\"device_id\":null,\"expires\":1645559243,\"https_required\":true,\"privileged\":false,\"user_id\":null,\"version\":2,\"vod_id\":132195945}",
+                "signature": "538ed3d122f08197f4cf84e0ad7f238c19a7f804",
                 "__typename": "PlaybackAccessToken"
             }
         },
         "extensions": {
-            "durationMilliseconds": 63,
+            "durationMilliseconds": 67,
             "operationName": "PlaybackAccessToken",
-            "requestID": "01FWF7NK4V72TQ0CKBFNMQ18KA"
+            "requestID": "01FWFAXG1K6JKASTR810K8BS8H"
         }
     }
 ]

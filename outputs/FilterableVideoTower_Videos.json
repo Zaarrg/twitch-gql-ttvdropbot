@@ -17,7 +17,7 @@
                                     "__typename": "Game"
                                 },
                                 "id": "1305217178",
-                                "lengthSeconds": 52265,
+                                "lengthSeconds": 55696,
                                 "owner": {
                                     "displayName": "xQcOW",
                                     "id": "71092938",
@@ -34,7 +34,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
-                                "viewCount": 58507,
+                                "viewCount": 66754,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -92,21 +92,21 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "WOWOWOWOW INSANE POGU CHASING JUICER GOES ABSOLUTE BONKERS ON THE BROADCAST (INCREDIBLE) COME SEE IT HAPPEN IN REAL TIME\n",
-                                "viewCount": 3544603,
+                                "viewCount": 3545237,
                                 "resourceRestriction": null,
                                 "contentTags": [
-                                    {
-                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
-                                        "isLanguageTag": true,
-                                        "localizedName": "English",
-                                        "tagName": "auto___lang_en",
-                                        "__typename": "Tag"
-                                    },
                                     {
                                         "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
                                         "isLanguageTag": false,
                                         "localizedName": "ADHD",
                                         "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
                                         "__typename": "Tag"
                                     },
                                     {
@@ -150,7 +150,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(CLICK NOW) SOMETHING INCREDIBLE IS HAPPENING (OMG) I CANT BELIEVE IT AND YOU WILL NOT TOO. GOLEM GOES MAD-MODE AND CONQUERS THE INTERNET !!",
-                                "viewCount": 1579077,
+                                "viewCount": 1579308,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -208,7 +208,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "MAN UNABLE TO LOSE IN ANY VIDEO GAME GOES LIVE TO SHOW THE WORLD WHAT THE FUDGE IS UP AND GOES INSANE MALD-MODE CRACKED GOLEM LIVE NOW!\n",
-                                "viewCount": 1617831,
+                                "viewCount": 1617924,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -266,7 +266,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "ENORMOUS JUICER DAY INSANE CRAZED NUTS. MONSTER TITANLORD PHARAOH OGRE BOSS GOES HARD EVERYWHERE. ALSO, CASINO FINALE DAY (REAL)\n",
-                                "viewCount": 2276255,
+                                "viewCount": 2276348,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -324,7 +324,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "MAN - LONG STREAM? IDK? WHAT IS UP? CLICK HERE? MAYBE? CLICK HERE NOW DONT BE WEIRD\n",
-                                "viewCount": 1239075,
+                                "viewCount": 1239109,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -382,7 +382,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "WAR IS HERE. CHILL THEN CASINO FINALE *REAL* *NOT COPE*. ROBBING THE CASINO AND PUTTING UP THE MOST EPIC FIGHT OF THE YEAR NICE AHAHAHAHAHAH",
-                                "viewCount": 3012096,
+                                "viewCount": 3012125,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -440,7 +440,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "NEW HOUSE (#2947854) HAH! INSANE SKELETAL WARLORDIAN MOUTAIN KING JUICELORD COMES BACK TO PLAY AND WATCH GAMES NOT 1 VIEWER ASKED FOR (REAL)",
-                                "viewCount": 4595380,
+                                "viewCount": 4595404,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -498,7 +498,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(LIVE) CLICK NOW! BORED? CLICK HERE ASAP. BIGGEST DAY OF ALL TIME. FINAL DAY OF THE CASINO ROBBERY. ABSOLUTE GAMING WARLORD BREAKS THE VAULT",
-                                "viewCount": 2841313,
+                                "viewCount": 2841331,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -556,7 +556,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(LIVE) NEW HOUSE (SETUP #9,302) INSANE JUICER DOES THINGS THAT NOT A SINGLE PERSON ASKED FOR (WHO ASKED?) CONTENT SCRAPYARD GOBLIN WARLORD",
-                                "viewCount": 1905158,
+                                "viewCount": 1905183,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -614,7 +614,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "YOU KNOW WHAT TIME IT IS! AHHHAHAHAH! CLICK HERE NOW! WOAH I CANT BELIEVE ITS THAT TIME AGAIN, SO MANY THINGS TO DO SO MANYT HINGS TO ......",
-                                "viewCount": 4204080,
+                                "viewCount": 4204101,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -672,16 +672,9 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "BIGGEST MOST INSANE JUICE. MAX FOCUS ROCK SOLICK HERE NOW FOR THE MOST RAFINED PUREST JUICE TO EVER COME ACROSS THE INTERNET AHAHAHA! HEHEHE",
-                                "viewCount": 2098570,
+                                "viewCount": 2098589,
                                 "resourceRestriction": null,
                                 "contentTags": [
-                                    {
-                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
-                                        "isLanguageTag": false,
-                                        "localizedName": "ADHD",
-                                        "tagName": "ADHD",
-                                        "__typename": "Tag"
-                                    },
                                     {
                                         "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
                                         "isLanguageTag": false,
@@ -694,6 +687,13 @@
                                         "isLanguageTag": true,
                                         "localizedName": "English",
                                         "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
                                         "__typename": "Tag"
                                     }
                                 ],
@@ -730,7 +730,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "BIG JUICER AHAHAHAHAHAHAHAHAHAAHAH WOW THIS IS SO FUN THIS TIMELINE IS THE BEST SO FAR. I CANT BELIEVE WE ARE HERE AGAIN! WOOOHOOOOOOOOOOOOO",
-                                "viewCount": 3646132,
+                                "viewCount": 3646141,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -788,7 +788,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(DRAMATIC STREAM) DEGEN HOURS - DEGEN CONTENT - NO ONE KNOWS WHAT IS UP ANYMORE. OMG OMG OMG OMG FKJHWEFKJHEWHEWQFKQJFHQEWJKFHEQWJKFEWQHFKJQ",
-                                "viewCount": 1755004,
+                                "viewCount": 1755014,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -853,7 +853,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(DRAMATIC STREAM) DEGEN HOURS - DEGEN CONTENT - NO ONE KNOWS WHAT IS UP ANYMORE. OMG OMG OMG OMG FKJHWEFKJHEWHEWQFKQJFHQEWJKFHEQWJKFEWQHFKJQ",
-                                "viewCount": 4256726,
+                                "viewCount": 4256738,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -911,7 +911,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(INSANE DRAMA NEWS) CHILL AND REACT COZY STREAM UNTIL BIG FINAL CASINO PROGRESSION (CRAZY PROGRESSION) TODAY. I CANT BELIEVE IT!!!!! MASSIVE",
-                                "viewCount": 2661099,
+                                "viewCount": 2661105,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -969,7 +969,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "REVEILING THE BIGGEST SECRETS IN THE WORLD - CASIN HEIST FIRST THEN INTRO AND CHILL ( JUST WOKE UP ) IM SO MALDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
-                                "viewCount": 2507639,
+                                "viewCount": 2507643,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1027,7 +1027,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "STREAM UNTIL I BECOME A SKELETON OF OLD AGE (CONTENT DROUGHT = CONTENT GOLD MINE) LULW ANY LULERS? ANY LULERS. LULW AHAHAHAHAHA THIS IS FUN!",
-                                "viewCount": 4674434,
+                                "viewCount": 4674445,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1085,7 +1085,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "TODAY IS THE DAY (BIG THINGS ARE HAPPENING WOW. I CANT BELIEVE ALL OF THIS IS HAPPENING AND EVEN MORE WILL HAPENN AJAJAJ!!! WOWWWWWWWWWWWWWW",
-                                "viewCount": 3105396,
+                                "viewCount": 3105402,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1143,7 +1143,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "*RIDDLE SOLVED* CHILLING NIGHT TIME STREAM MAYBE FULL DAY JUICER DEGEN SCHEDULE EHEHEHEHHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHE",
-                                "viewCount": 4743069,
+                                "viewCount": 4743074,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1201,7 +1201,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "DAILY SLEEPO RESETO STREAMO (POG) AHAHAHAHAHAHA I CANT BELIEVE THIS ACTUALLY HAPPENED (CAN YOU BELIEVE THIS) WOW INSANE COME AND FIND OUT!!!",
-                                "viewCount": 2131893,
+                                "viewCount": 2131894,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1259,7 +1259,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "OMG - CASINO HEIST FINALE (DORA THE EXPLORATER) LATE ASF SO JUMPING RIGHT INTO IT. REACTLORD AND OTHER STUFF LATER (HEHEHEHE)",
-                                "viewCount": 2123310,
+                                "viewCount": 2123312,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1317,7 +1317,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "OMG MORE DRAMA (INSANELY SPICY) AND WOW SO EXCITING! ALSO MICROSOFT BOUGHT WHAT? BILL GATES WILL FIX OVERWATCH? I CANT BELIEVE THIS HAPPENED",
-                                "viewCount": 2358316,
+                                "viewCount": 2358318,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1375,7 +1375,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "COME TELL ME ABOUT YOUR DAY? HEY MAN HOW WAS YOUR DAY? DONOWALL. HEY MAN HOW IS IT IN THIS FINE DAY? DONOWALL. ARE YOU LISTENING? DONOWALL..",
-                                "viewCount": 2017617,
+                                "viewCount": 2017619,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1433,7 +1433,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "(DRAMA ONLY STREAM) BIG DRAMA TODAY! I CANT BELIEVE THIS HAPPENED! CLICK HERE TO FIND OUT WHAT IT IS (1 MILLION HOUR STREAM INBOUND HAHA!)))",
-                                "viewCount": 4362343,
+                                "viewCount": 4362347,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1491,7 +1491,7 @@
                                     "__typename": "VideoSelfEdge"
                                 },
                                 "title": "I DONT EVEN KNOW WHAT IS AND WHAT IS NOT ANYMORE- SKELETON MAN CHILD FAILS AT EVERYTHING IN EVERY GAME UNTIL LUCK STRIKES FOR THE FIRST TIME",
-                                "viewCount": 1885999,
+                                "viewCount": 1886003,
                                 "resourceRestriction": null,
                                 "contentTags": [
                                     {
@@ -1531,9 +1531,9 @@
             }
         },
         "extensions": {
-            "durationMilliseconds": 101,
+            "durationMilliseconds": 111,
             "operationName": "FilterableVideoTower_Videos",
-            "requestID": "01FWF7NJRMG2C8BMA5NJY285EC"
+            "requestID": "01FWFAXFMZTYTW4EMQ3ARFN3HJ"
         }
     }
 ]

@@ -1,28 +1,28 @@
 {
     "data": {
         "user": {
-            "id": "94753024",
-            "login": "mizkif",
-            "displayName": "Mizkif",
-            "description": "https://www.tiktok.com/@realmizkif",
-            "createdAt": "2015-06-28T22:35:16.254782Z",
+            "id": "71092938",
+            "login": "xqcow",
+            "displayName": "xQcOW",
+            "description": "THE BEST AT ABSOLUTELY EVERYTHING. THE JUICER. LEADER OF THE JUICERS.",
+            "createdAt": "2014-09-12T23:50:05.989719Z",
             "roles": {
                 "isPartner": true
             },
             "stream": {
-                "id": "44773239916",
-                "title": "OTK PRESENTS SCHOOLED SEASON 2 BROUGHT TO YOU BY RAZER! | !Razer",
+                "id": "45605637373",
+                "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
                 "type": "live",
-                "viewersCount": 72256,
-                "createdAt": "2022-02-21T20:14:07Z",
+                "viewersCount": 100172,
+                "createdAt": "2022-02-21T08:19:01Z",
                 "game": {
-                    "name": "Just Chatting"
+                    "name": "Grand Theft Auto V"
                 }
             }
         }
     },
     "extensions": {
-        "durationMilliseconds": 60,
-        "requestID": "01FWF7NMMVDEZDDADDZDE65PZJ"
+        "durationMilliseconds": 57,
+        "requestID": "01FWFAXHFSM6WM0NMGSY5YGXRP"
     }
 }

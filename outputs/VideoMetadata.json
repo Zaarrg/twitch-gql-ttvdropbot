@@ -20,7 +20,7 @@
                 "description": "Almost 1 mil  ",
                 "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/68f20b3f31_asmongold_24919466208_626137133//thumb/thumb132195945-{width}x{height}.jpg",
                 "createdAt": "2017-03-30T10:23:09Z",
-                "viewCount": 85155,
+                "viewCount": 85164,
                 "publishedAt": "2017-03-30T10:23:09Z",
                 "lengthSeconds": 512,
                 "broadcastType": "HIGHLIGHT",
@@ -41,9 +41,9 @@
             }
         },
         "extensions": {
-            "durationMilliseconds": 39,
+            "durationMilliseconds": 38,
             "operationName": "VideoMetadata",
-            "requestID": "01FWF7NM29BZYQCDP789PRBG0Y"
+            "requestID": "01FWFAXGWHC9QEBQQ7ZEB4D80M"
         }
     }
 ]

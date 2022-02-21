@@ -3,11 +3,11 @@
         "streams": {
             "edges": [
                 {
-                    "cursor": "eyJzIjoxMTE0NDUuOTQ0MDE1NDAyNTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "cursor": "eyJzIjoxMDAxNzIuOTQ0MDE1NDAyNTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
                         "id": "45605637373",
                         "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
-                        "viewersCount": 111445,
+                        "viewersCount": 100172,
                         "language": "EN",
                         "broadcaster": {
                             "displayName": "xQcOW"
@@ -18,12 +18,12 @@
                                 "localizedName": "English"
                             },
                             {
-                                "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
-                                "localizedName": "ADHD"
-                            },
-                            {
                                 "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
                                 "localizedName": "Anime"
+                            },
+                            {
+                                "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                "localizedName": "ADHD"
                             }
                         ],
                         "game": {
@@ -32,111 +32,11 @@
                     }
                 },
                 {
-                    "cursor": "eyJzIjo5MjkyMC4xNDk3OTUwMzE0NCwiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "44772269756",
-                        "title": "Masterkill LoL ft. Squeezie, Kameto & Wao ! ",
-                        "viewersCount": 92920,
-                        "language": "FR",
-                        "broadcaster": {
-                            "displayName": "Gotaga"
-                        },
-                        "tags": [
-                            {
-                                "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
-                                "localizedName": "French"
-                            }
-                        ],
-                        "game": {
-                            "name": "League of Legends"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjo3MjI1Ni41Njg3MDk2OTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
-                    "node": {
-                        "id": "44773239916",
-                        "title": "OTK PRESENTS SCHOOLED SEASON 2 BROUGHT TO YOU BY RAZER! | !Razer",
-                        "viewersCount": 72256,
-                        "language": "EN",
-                        "broadcaster": {
-                            "displayName": "Mizkif"
-                        },
-                        "tags": [
-                            {
-                                "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
-                                "localizedName": "Hype Train"
-                            },
-                            {
-                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
-                                "localizedName": "English"
-                            },
-                            {
-                                "id": "1e95d7b4-8dac-4b5f-81d5-f963fdc5d989",
-                                "localizedName": "Leatherwork"
-                            },
-                            {
-                                "id": "52d7e4cc-633d-46f5-818c-bb59102d9549",
-                                "localizedName": "Vtuber"
-                            },
-                            {
-                                "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
-                                "localizedName": "ADHD"
-                            }
-                        ],
-                        "game": {
-                            "name": "Just Chatting"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjo1NDM1Mi44MDU2NDAyMzA2MSwiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "44772117324",
-                        "title": "В ОЖИДАНИИ... https://t.me/jesusavgntwitch",
-                        "viewersCount": 54352,
-                        "language": "RU",
-                        "broadcaster": {
-                            "displayName": "JesusAVGN"
-                        },
-                        "tags": [
-                            {
-                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
-                                "localizedName": "Russian"
-                            }
-                        ],
-                        "game": {
-                            "name": "Politics"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjo0OTAxMC43MDc4NjQ0MDM2NiwiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "45611206269",
-                        "title": "SE VIENE LA PELEA DEL AÑO",
-                        "viewersCount": 49010,
-                        "language": "ES",
-                        "broadcaster": {
-                            "displayName": "momoladinastia"
-                        },
-                        "tags": [
-                            {
-                                "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
-                                "localizedName": "Spanish"
-                            }
-                        ],
-                        "game": {
-                            "name": "Just Chatting"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjozOTQwOC40MDE2NDkzNTY0NSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjozOTA4MC40MDE2NDkzNTY0NSwiZCI6ZmFsc2UsInQiOnRydWV9",
                     "node": {
                         "id": "45609886941",
-                        "title": "I AM BACK AND THERES ALOT OF NEWS OMG",
-                        "viewersCount": 39408,
+                        "title": "RUSSIA IS SENDING TROOPS INTO DONBAS (RUSSIAN SEPARATIST TERRITORY) ",
+                        "viewersCount": 39080,
                         "language": "EN",
                         "broadcaster": {
                             "displayName": "HasanAbi"
@@ -153,11 +53,11 @@
                     }
                 },
                 {
-                    "cursor": "eyJzIjozODkzMS4zNDkwNzQ5NjU4OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjozNzQwMS4zNDkwNzQ5NjU4OSwiZCI6ZmFsc2UsInQiOnRydWV9",
                     "node": {
                         "id": "40557274459",
                         "title": "18+ NEED SOMETHING BIG TONIGHT, FML #ad | !twitter | !instagram | !podcast | !youtube",
-                        "viewersCount": 38931,
+                        "viewersCount": 37401,
                         "language": "EN",
                         "broadcaster": {
                             "displayName": "Trainwreckstv"
@@ -174,36 +74,32 @@
                     }
                 },
                 {
-                    "cursor": "eyJzIjozMzczNi44NDY0MTY2MjUxNiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjozNzI5Ny44MDU2NDAyMzA2MSwiZCI6ZmFsc2UsInQiOnRydWV9",
                     "node": {
-                        "id": "40558724843",
-                        "title": "Trio Arena mit ROHAT & SIDNEY danach Songbattle 🔥 | !eligella",
-                        "viewersCount": 33736,
-                        "language": "DE",
+                        "id": "44772117324",
+                        "title": "В ОЖИДАНИИ... https://t.me/jesusavgntwitch",
+                        "viewersCount": 37297,
+                        "language": "RU",
                         "broadcaster": {
-                            "displayName": "eliasn97"
+                            "displayName": "JesusAVGN"
                         },
                         "tags": [
                             {
-                                "id": "2a14b52e-d459-4c92-be11-5d86b898f6b6",
-                                "localizedName": "Squad Stream"
-                            },
-                            {
-                                "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
-                                "localizedName": "German"
+                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                "localizedName": "Russian"
                             }
                         ],
                         "game": {
-                            "name": "Fortnite"
+                            "name": "Politics"
                         }
                     }
                 },
                 {
-                    "cursor": "eyJzIjozMzAxMi42NzgwOTc3MjU3NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjozNjY4Mi42NzgwOTc3MjU3NywiZCI6ZmFsc2UsInQiOnRydWV9",
                     "node": {
                         "id": "44771695548",
                         "title": "STREAMER COMPRA 1304 GRAFICAS PARA SU GRANJA DE MINERIA DE BITCOINS Y SALE MAL",
-                        "viewersCount": 33012,
+                        "viewersCount": 36682,
                         "language": "ES",
                         "broadcaster": {
                             "displayName": "Rubius"
@@ -220,19 +116,107 @@
                     }
                 },
                 {
-                    "cursor": "eyJzIjozMTYwOC4xMzY2NzM3MTU5OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjozMjg4OC4wMjcwNTQxMTgsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
-                        "id": "45608550845",
-                        "title": "HOY SE VE SHREK, SE COMPLETA DEAD RISING Y SE EMPIEZA A OLER ELDEN RING. BOBOBOFFFFF ✨✨✨",
-                        "viewersCount": 31608,
-                        "language": "ES",
+                        "id": "45608902429",
+                        "title": "NOW!!! BIG BONUS OPENING WITH VIEWERS HUNT INCLUDED | !STORE FOR MILLIONS WORTH OF GIFTS | +18",
+                        "viewersCount": 32888,
+                        "language": "EN",
                         "broadcaster": {
-                            "displayName": "IlloJuan"
+                            "displayName": "ROSHTEIN"
                         },
                         "tags": [
                             {
-                                "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
-                                "localizedName": "Spanish"
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "Slots"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozMDE3OC4xNTU1OTQwMzcxODQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "45611207421",
+                        "title": "CHALLENGER EVERYTHING GOAT !! GREATEST EVER AND NOT CLOSE !! 6'5 FREAK BEAST !!!!!",
+                        "viewersCount": 30178,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "loltyler1"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "League of Legends"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyNjcxOC4yODk1MjM3NzczOSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45611252685",
+                        "title": "SEMANA COMECOU CORRE ATRAS MEU FIIIII ",
+                        "viewersCount": 26718,
+                        "language": "PT",
+                        "broadcaster": {
+                            "displayName": "loud_coringa"
+                        },
+                        "tags": [
+                            {
+                                "id": "39ee8140-901a-4762-bfca-8260dea1310f",
+                                "localizedName": "Portuguese"
+                            }
+                        ],
+                        "game": {
+                            "name": "Call of Duty: Warzone"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyNjQ0MC4wMzEzMjc0OTc5MiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "44773643548",
+                        "title": "TOMMY TATE | NoPixel WL | !nprules",
+                        "viewersCount": 26440,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "Zerkaa"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "Grand Theft Auto V"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyNjMwMS44NDYzMTY2MjUxNTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "40558724843",
+                        "title": "Songbattle mit der Community 🔥 | !eligella",
+                        "viewersCount": 26301,
+                        "language": "DE",
+                        "broadcaster": {
+                            "displayName": "eliasn97"
+                        },
+                        "tags": [
+                            {
+                                "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                                "localizedName": "German"
+                            },
+                            {
+                                "id": "2a14b52e-d459-4c92-be11-5d86b898f6b6",
+                                "localizedName": "Squad Stream"
                             }
                         ],
                         "game": {
@@ -244,7 +228,7 @@
         }
     },
     "extensions": {
-        "durationMilliseconds": 55,
-        "requestID": "01FWF7NJEX07SKX0AGWW983Y02"
+        "durationMilliseconds": 59,
+        "requestID": "01FWFAXFBDXMCQJNHRM2C1JHQK"
     }
 }
