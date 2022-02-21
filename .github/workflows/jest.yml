@@ -20,4 +20,4 @@ jobs:
               env:
                   TWITCH_OAUTH_TOKEN: ${{ secrets.TWITCH_OAUTH_TOKEN }}
             - run: npm i --dev
-            - run: npm test
+            - run: npm test TWITCH_OAUTH_TOKEN
