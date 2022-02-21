@@ -66,7 +66,7 @@ Get an access token and signature to use for an m3u8 playlist
 
 Get highlights/game changes of a vod
 
-## _SendQuery(QueryName, variables, preset)
+## _SendQuery(QueryName, variables, sha256Hash, OAuth, preset)
 
 - `QueryName` - The name of a preset query in the `queries` directory  
   In the case the `preset` parameter is true,
@@ -74,10 +74,14 @@ Get highlights/game changes of a vod
 
 - `variables` - An optional object of variables you want to pass onto the query
 
+- `sha256Hash` - Custom Hash to get specific requests without the need for it to be implemented
+
+- `OAuth` - Ability to Provide a OAuth Token to get otherwise Inaccessible content like inventory
+
 - `preset` - (default false) if `true` this will use 
 
 Send a raw query through GraphQL
 
 # About
 
-Made by poespas ( me@poespas.me )
+Made by poespas ( me@poespas.me ) edited by Zarg for the use with TTVDropBot
