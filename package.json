@@ -3,6 +3,9 @@
   "version": "1.4.0",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/@Zaarrg"
+  },  
   "dependencies": {
     "fs": "0.0.1-security",
     "jest": "^27.5.1",
@@ -15,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/Zaarrg/twitch-gql-ttvdropbot.git"
   },
-  "author": "poespas",
+  "author": "Zarg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/poespas/twitch-gql-ttvdropbot/issues"
