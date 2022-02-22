@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zaarrg/twitch-gql-ttvdropbot.git"
+    "url": "git+https://github.com/@Zaarrg/twitch-gql-ttvdropbot.git"
   },
   "author": "Zarg",
   "license": "ISC",
