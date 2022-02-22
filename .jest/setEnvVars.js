@@ -1,1 +1,0 @@
-process.env.TWITCH_OAUTH_TOKEN = process.env.TWITCH_OAUTH_TOKEN
