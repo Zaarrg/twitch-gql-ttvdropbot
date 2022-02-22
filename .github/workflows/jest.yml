@@ -6,7 +6,9 @@ jobs:
     build:
 
         runs-on: ubuntu-latest
-
+        env:
+            TWITCH_OAUTH_TOKEN: ${{ secrets.TWITCH_OAUTH_TOKEN }}
+        
         strategy:
             matrix:
                 node-version: [13.x, 14.0.x, 14.x, 16.x]
@@ -18,7 +20,5 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
             - run: npm i --dev
-              env:
-                TWITCH_OAUTH_TOKEN: ${{ secrets.TWITCH_OAUTH_TOKEN }}
             - run: echo "The API key is:${{env.TWITCH_OAUTH_TOKEN}}"
             - run: npm test
