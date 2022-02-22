@@ -14,10 +14,6 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/@Zaarrg/twitch-gql-ttvdropbot.git"
-  },
   "author": "Zarg",
   "license": "ISC",
   "bugs": {
