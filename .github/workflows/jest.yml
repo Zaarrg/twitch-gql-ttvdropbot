@@ -20,5 +20,4 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
             - run: npm i --dev
-            - run: echo "The API key is:${{env.TWITCH_OAUTH_TOKEN}}"
             - run: npm test
