@@ -1,6 +1,6 @@
 # TwitchGQL
 
-### Allows interaction with Twitch via the Twitch's inner GraphQL protocol
+### Allows interaction with Twitch via the Twitch's inner GraphQL protocol (Modified for TTVDropBot)
 
 # Installation
 
