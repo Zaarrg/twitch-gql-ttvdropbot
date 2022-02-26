@@ -1,10 +1,10 @@
 {
-  "name": "twitch-gql-ttvdropbot",
-  "version": "1.4.0",
+  "name": "@Zaarrg/twitch-gql-ttvdropbot",
+  "version": "1.4.1",
   "description": "",
   "main": "index.js",
   "publishConfig": {
-      "registry": "https://npm.pkg.github.com/@Zaarrg"
+      "registry": "https://npm.pkg.github.com"
   },  
   "dependencies": {
     "fs": "0.0.1-security",
@@ -13,10 +13,6 @@
   },
   "scripts": {
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zaarrg/twitch-gql-ttvdropbot.git"
   },
   "author": "Zarg",
   "license": "ISC",
