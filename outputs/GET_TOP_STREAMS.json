@@ -3,106 +3,14 @@
         "streams": {
             "edges": [
                 {
-                    "cursor": "eyJzIjoxMDAxNzIuOTQ0MDE1NDAyNTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "cursor": "eyJzIjo3MzU4My40NDQxNTc1MTcxNSwiZCI6ZmFsc2UsInQiOnRydWV9",
                     "node": {
-                        "id": "45605637373",
-                        "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
-                        "viewersCount": 100172,
-                        "language": "EN",
-                        "broadcaster": {
-                            "displayName": "xQcOW"
-                        },
-                        "tags": [
-                            {
-                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
-                                "localizedName": "English"
-                            },
-                            {
-                                "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
-                                "localizedName": "Anime"
-                            },
-                            {
-                                "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
-                                "localizedName": "ADHD"
-                            }
-                        ],
-                        "game": {
-                            "name": "Grand Theft Auto V"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjozOTA4MC40MDE2NDkzNTY0NSwiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "45609886941",
-                        "title": "RUSSIA IS SENDING TROOPS INTO DONBAS (RUSSIAN SEPARATIST TERRITORY) ",
-                        "viewersCount": 39080,
-                        "language": "EN",
-                        "broadcaster": {
-                            "displayName": "HasanAbi"
-                        },
-                        "tags": [
-                            {
-                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
-                                "localizedName": "English"
-                            }
-                        ],
-                        "game": {
-                            "name": "Just Chatting"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjozNzQwMS4zNDkwNzQ5NjU4OSwiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "40557274459",
-                        "title": "18+ NEED SOMETHING BIG TONIGHT, FML #ad | !twitter | !instagram | !podcast | !youtube",
-                        "viewersCount": 37401,
-                        "language": "EN",
-                        "broadcaster": {
-                            "displayName": "Trainwreckstv"
-                        },
-                        "tags": [
-                            {
-                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
-                                "localizedName": "English"
-                            }
-                        ],
-                        "game": {
-                            "name": "Slots"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjozNzI5Ny44MDU2NDAyMzA2MSwiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "44772117324",
-                        "title": "В ОЖИДАНИИ... https://t.me/jesusavgntwitch",
-                        "viewersCount": 37297,
-                        "language": "RU",
-                        "broadcaster": {
-                            "displayName": "JesusAVGN"
-                        },
-                        "tags": [
-                            {
-                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
-                                "localizedName": "Russian"
-                            }
-                        ],
-                        "game": {
-                            "name": "Politics"
-                        }
-                    }
-                },
-                {
-                    "cursor": "eyJzIjozNjY4Mi42NzgwOTc3MjU3NywiZCI6ZmFsc2UsInQiOnRydWV9",
-                    "node": {
-                        "id": "44771695548",
-                        "title": "STREAMER COMPRA 1304 GRAFICAS PARA SU GRANJA DE MINERIA DE BITCOINS Y SALE MAL",
-                        "viewersCount": 36682,
+                        "id": "45631492797",
+                        "title": "hablamos y vemos cosassssssss",
+                        "viewersCount": 73583,
                         "language": "ES",
                         "broadcaster": {
-                            "displayName": "Rubius"
+                            "displayName": "auronplay"
                         },
                         "tags": [
                             {
@@ -116,40 +24,69 @@
                     }
                 },
                 {
-                    "cursor": "eyJzIjozMjg4OC4wMjcwNTQxMTgsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "cursor": "eyJzIjo2MjkxMi40OTg4NTkyNTc1NTQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
-                        "id": "45608902429",
-                        "title": "NOW!!! BIG BONUS OPENING WITH VIEWERS HUNT INCLUDED | !STORE FOR MILLIONS WORTH OF GIFTS | +18",
-                        "viewersCount": 32888,
+                        "id": "45630840493",
+                        "title": "[DROPS ENABLED] --LOST ARK TIER 2 ENDGAME--SOLOING ALL CONTENT--WOW 9.2 IMPRESSIONS--ELDEN RING TOMORROW ",
+                        "viewersCount": 62912,
                         "language": "EN",
                         "broadcaster": {
-                            "displayName": "ROSHTEIN"
+                            "displayName": "Asmongold"
                         },
                         "tags": [
+                            {
+                                "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                "localizedName": "Drops Enabled"
+                            },
                             {
                                 "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
                                 "localizedName": "English"
                             }
                         ],
                         "game": {
-                            "name": "Slots"
+                            "name": "Lost Ark"
                         }
                     }
                 },
                 {
-                    "cursor": "eyJzIjozMDE3OC4xNTU1OTQwMzcxODQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "cursor": "eyJzIjo1NzcxNi43Mjk2MTYyNTIxNzQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
-                        "id": "45611207421",
-                        "title": "CHALLENGER EVERYTHING GOAT !! GREATEST EVER AND NOT CLOSE !! 6'5 FREAK BEAST !!!!!",
-                        "viewersCount": 30178,
-                        "language": "EN",
+                        "id": "40564580379",
+                        "title": "Moin",
+                        "viewersCount": 57716,
+                        "language": "DE",
                         "broadcaster": {
-                            "displayName": "loltyler1"
+                            "displayName": "MontanaBlack88"
                         },
                         "tags": [
                             {
-                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
-                                "localizedName": "English"
+                                "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                                "localizedName": "German"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo0Njk5Ni40MDU2Mjk1NDg1NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "44789117532",
+                        "title": "LFL Spring 2022 - OPL vs SLY - W7D1",
+                        "viewersCount": 44706,
+                        "language": "FR",
+                        "broadcaster": {
+                            "displayName": "otplol_"
+                        },
+                        "tags": [
+                            {
+                                "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                                "localizedName": "French"
+                            },
+                            {
+                                "id": "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                                "localizedName": "Esports"
                             }
                         ],
                         "game": {
@@ -158,35 +95,60 @@
                     }
                 },
                 {
-                    "cursor": "eyJzIjoyNjcxOC4yODk1MjM3NzczOSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjozMzU5My41MjU4MzAwMDg0NDYsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
-                        "id": "45611252685",
-                        "title": "SEMANA COMECOU CORRE ATRAS MEU FIIIII ",
-                        "viewersCount": 26718,
-                        "language": "PT",
+                        "id": "44789619884",
+                        "title": "НА СЦЕНЕ ИВАН",
+                        "viewersCount": 33593,
+                        "language": "EN",
                         "broadcaster": {
-                            "displayName": "loud_coringa"
+                            "displayName": "bratishkinoff"
                         },
                         "tags": [
                             {
-                                "id": "39ee8140-901a-4762-bfca-8260dea1310f",
-                                "localizedName": "Portuguese"
+                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                "localizedName": "Russian"
                             }
                         ],
                         "game": {
-                            "name": "Call of Duty: Warzone"
+                            "name": "Just Chatting"
                         }
                     }
                 },
                 {
-                    "cursor": "eyJzIjoyNjQ0MC4wMzEzMjc0OTc5MiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "cursor": "eyJzIjoyMzMyMS43MzE4OTg0NjcyMjcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
-                        "id": "44773643548",
-                        "title": "TOMMY TATE | NoPixel WL | !nprules",
-                        "viewersCount": 26440,
+                        "id": "45631195421",
+                        "title": "ダイヤ行くって言ってんだろカス",
+                        "viewersCount": 23321,
+                        "language": "JA",
+                        "broadcaster": {
+                            "displayName": "加藤純一です"
+                        },
+                        "tags": [
+                            {
+                                "id": "dc179e62-215f-4785-bbc5-385ef8f1285b",
+                                "localizedName": "Japan"
+                            },
+                            {
+                                "id": "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d",
+                                "localizedName": "Japanese"
+                            }
+                        ],
+                        "game": {
+                            "name": "Apex Legends"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDk3Ny41OTY4NDY0NTE4OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45631345597",
+                        "title": "DA CHAMPIONZZZZZ  | @Castro1021 ",
+                        "viewersCount": 20977,
                         "language": "EN",
                         "broadcaster": {
-                            "displayName": "Zerkaa"
+                            "displayName": "Castro_1021"
                         },
                         "tags": [
                             {
@@ -195,32 +157,74 @@
                             }
                         ],
                         "game": {
-                            "name": "Grand Theft Auto V"
+                            "name": "FIFA 22"
                         }
                     }
                 },
                 {
-                    "cursor": "eyJzIjoyNjMwMS44NDYzMTY2MjUxNTcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "cursor": "eyJzIjoyMDY3NS43NjQ1MjU2MDk5NjgsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
                     "node": {
-                        "id": "40558724843",
-                        "title": "Songbattle mit der Community 🔥 | !eligella",
-                        "viewersCount": 26301,
-                        "language": "DE",
+                        "id": "45631914045",
+                        "title": "Бои на голых кулаках ",
+                        "viewersCount": 20675,
+                        "language": "RU",
                         "broadcaster": {
-                            "displayName": "eliasn97"
+                            "displayName": "buster"
                         },
                         "tags": [
                             {
-                                "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
-                                "localizedName": "German"
+                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                "localizedName": "Russian"
+                            }
+                        ],
+                        "game": {
+                            "name": "Sports"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDM3NS4xMDgxMDEwMTg3MywiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45630400141",
+                        "title": "ごりぺ",
+                        "viewersCount": 20375,
+                        "language": "JA",
+                        "broadcaster": {
+                            "displayName": "fps_shaka"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d",
+                                "localizedName": "Japanese"
                             },
                             {
-                                "id": "2a14b52e-d459-4c92-be11-5d86b898f6b6",
-                                "localizedName": "Squad Stream"
+                                "id": "eaba0ad7-c4e1-4878-b37f-01308dbb65c8",
+                                "localizedName": "No Spoilers"
                             }
                         ],
                         "game": {
                             "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDM0MS43OTUxMzkwNDI0NDIsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "40564152027",
+                        "title": "ตู้ โอคอนเนอร์ SS1 ตัวแทนแห่งดวงจันทร์ จะลงทัณฑ์แกเอง Omnuay",
+                        "viewersCount": 20341,
+                        "language": "TH",
+                        "broadcaster": {
+                            "displayName": "RebirthzTV"
+                        },
+                        "tags": [
+                            {
+                                "id": "f19c7524-c18d-41af-9f39-034c8d0b0fee",
+                                "localizedName": "Thai"
+                            }
+                        ],
+                        "game": {
+                            "name": "Grand Theft Auto V"
                         }
                     }
                 }
@@ -228,7 +232,7 @@
         }
     },
     "extensions": {
-        "durationMilliseconds": 59,
-        "requestID": "01FWFAXFBDXMCQJNHRM2C1JHQK"
+        "durationMilliseconds": 57,
+        "requestID": "01FWKTZS6R5FFZ7A9MYTF7BH6V"
     }
 }

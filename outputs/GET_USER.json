@@ -9,20 +9,11 @@
             "roles": {
                 "isPartner": true
             },
-            "stream": {
-                "id": "45605637373",
-                "title": "WOW - I CANT BELIEVE THAT THIS HAPPENED - INCREDIBLE. I CANT BELIEVE THIS AND THAT ALSO HAPPENED RIGHT NOW CAN U BELIEE IT? WARLORD MOMENT",
-                "type": "live",
-                "viewersCount": 100172,
-                "createdAt": "2022-02-21T08:19:01Z",
-                "game": {
-                    "name": "Grand Theft Auto V"
-                }
-            }
+            "stream": null
         }
     },
     "extensions": {
-        "durationMilliseconds": 57,
-        "requestID": "01FWFAXHFSM6WM0NMGSY5YGXRP"
+        "durationMilliseconds": 40,
+        "requestID": "01FWKTZWAMF7RCAN6KPG0T2CB3"
     }
 }

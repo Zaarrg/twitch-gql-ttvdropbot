@@ -230,6 +230,50 @@ describe("Operations", () => {
             done();
         })();
     });
+    
+    test("GetDirectoryPageGame", (done) => {
+        const UserModel = {
+            id: String,
+            name: String,
+            displayName: String,
+            streams: {
+                edges: Array,
+                pageInfo: Object,
+                __typename: String
+            },
+            __typename: String
+        };
+
+        (async () => {
+            let opts = {
+                "sortTypeIsRecency":false,
+                "limit":100
+            }
+            const directorypagegame = await TwitchGQL.GetDirectoryPageGame("tom clancy's rainbow six siege", opts)
+            
+            TestMisc.CheckModel(directorypagegame[0].data.game, UserModel);
+            done();
+        })();
+    });
+
+    test("GetLiveStatus", (done) => {
+        (async () => {
+            const status = await TwitchGQL.GetLiveStatus('solaaa')
+
+            TestMisc.CheckModel(status, Boolean);
+
+            done();
+        })();
+    });
+    test("GetLiveStatusNull", (done) => {
+        (async () => {
+            const status = await TwitchGQL.GetLiveStatus('d')
+
+            TestMisc.CheckModel(status,  null);
+
+            done();
+        })();
+    });
 });
 // END OPERATIONS
 
@@ -251,7 +295,6 @@ describe("Queries", () => {
             let data = await TwitchGQL._SendQuery("GET_USER", {
                 login: USERS[Math.round(Math.random() * (USERS.length - 1))],
             });
-
             const user = data.data.user;
 
             TestMisc.CheckModel(user, UserModel);
@@ -260,30 +303,35 @@ describe("Queries", () => {
         })();
     });
 
-    test("DIRECTORYPAGE_GAME", (done) => {
+    test("DROPCAMPAIGNDETAILS", (done) => {
         const UserModel = {
             id: String,
             name: String,
-            displayName: String,
-            streams: {
-                edges: Array,
-                pageInfo: Object,
+            owner: {
+                id: String,
+                name: String,
                 __typename: String
             },
+            game: {
+                id: String,
+                displayName: String,
+                boxArtURL: String,
+                __typename: String
+            },
+            status: String,
+            startAt: String,
+            endAt: String,
+            detailsURL: String,
+            accountLinkURL: String,
+            self: Object,
             __typename: String
         };
 
         (async () => {
-            let opts = {
-                "name":"tom clancy's rainbow six siege",
-                "sortTypeIsRecency":false,
-                "limit":100
-            }
-            
-            let data = await TwitchGQL._SendQuery("DirectoryPage_Game", opts, 'd5c5df7ab9ae65c3ea0f225738c08a36a4a76e4c6c31db7f8c4b8dc064227f9e', '', true)
-            const user = data[0].data.game;
+            const data = await TwitchGQL._SendQuery("ViewerDropsDashboard", {}, '', process.env.TWITCH_OAUTH_TOKEN, true)
+            const campaign = data[0].data.currentUser.dropCampaigns;
 
-            TestMisc.CheckModel(user, UserModel);
+            TestMisc.CheckModel(campaign[0], UserModel);
 
             done();
         })();
@@ -301,11 +349,9 @@ describe("Queries", () => {
         };
 
         (async () => {
-            console.log('The env:' + process.env.TWITCH_OAUTH_TOKEN)
-            console.log('args' + process.env)
-            let data = await TwitchGQL._SendQuery("Inventory", {}, '27f074f54ff74e0b05c8244ef2667180c2f911255e589ccd693a1a52ccca7367', process.env.TWITCH_OAUTH_TOKEN, true)
-            const user = data[0].data.currentUser;
-
+            const Inventory = await TwitchGQL._SendQuery("Inventory", {}, '27f074f54ff74e0b05c8244ef2667180c2f911255e589ccd693a1a52ccca7367', process.env.TWITCH_OAUTH_TOKEN, true)
+            let user = Inventory[0].data.currentUser
+            
             TestMisc.CheckModel(user, UserModel);
 
             done();

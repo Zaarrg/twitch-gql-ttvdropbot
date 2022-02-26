@@ -1876,8 +1876,8 @@
                                     },
                                     {
                                         "id": "652955099",
-                                        "name": "finessingeso",
-                                        "url": "https://www.twitch.tv/finessingeso",
+                                        "name": "finessingtv",
+                                        "url": "https://www.twitch.tv/finessingtv",
                                         "__typename": "Channel"
                                     },
                                     {
@@ -5932,8 +5932,8 @@
                                     },
                                     {
                                         "id": "47983521",
-                                        "name": "gimmezimmee",
-                                        "url": "https://www.twitch.tv/gimmezimmee",
+                                        "name": "zim2win",
+                                        "url": "https://www.twitch.tv/zim2win",
                                         "__typename": "Channel"
                                     },
                                     {
@@ -23461,6 +23461,84 @@
                                         "name": "yvondahomie",
                                         "url": "https://www.twitch.tv/yvondahomie",
                                         "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "73381100",
+                                        "name": "asmoogl",
+                                        "url": "https://www.twitch.tv/asmoogl",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "193842476",
+                                        "name": "gunnnarz",
+                                        "url": "https://www.twitch.tv/gunnnarz",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "50597026",
+                                        "name": "ponce",
+                                        "url": "https://www.twitch.tv/ponce",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "83814278",
+                                        "name": "sirenhellvixen",
+                                        "url": "https://www.twitch.tv/sirenhellvixen",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "151658839",
+                                        "name": "auryes",
+                                        "url": "https://www.twitch.tv/auryes",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "133966232",
+                                        "name": "stracy",
+                                        "url": "https://www.twitch.tv/stracy",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "144532084",
+                                        "name": "p0gii",
+                                        "url": "https://www.twitch.tv/p0gii",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "233015261",
+                                        "name": "cekkintano",
+                                        "url": "https://www.twitch.tv/cekkintano",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "431059267",
+                                        "name": "mirken_",
+                                        "url": "https://www.twitch.tv/mirken_",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "71274995",
+                                        "name": "efoti",
+                                        "url": "https://www.twitch.tv/efoti",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "72059934",
+                                        "name": "skilldancetv",
+                                        "url": "https://www.twitch.tv/skilldancetv",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "47312394",
+                                        "name": "valkurf",
+                                        "url": "https://www.twitch.tv/valkurf",
+                                        "__typename": "Channel"
+                                    },
+                                    {
+                                        "id": "191084060",
+                                        "name": "erdiloio",
+                                        "url": "https://www.twitch.tv/erdiloio",
+                                        "__typename": "Channel"
                                     }
                                 ],
                                 "__typename": "DropCampaignACL"
@@ -23500,534 +23578,6 @@
                                         "accountLinkURL": "https://www.playlostark.com/twitch-drops",
                                         "self": {
                                             "isAccountConnected": false,
-                                            "__typename": "DropCampaignSelfEdge"
-                                        },
-                                        "__typename": "DropCampaign"
-                                    },
-                                    "__typename": "TimeBasedDrop"
-                                }
-                            ],
-                            "__typename": "DropCampaign"
-                        },
-                        {
-                            "id": "897efb78-5155-43d5-8f7a-3f5dc08aae1f",
-                            "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                            "accountLinkURL": "https://drops-register.ubi.com/",
-                            "startAt": "2022-02-20T05:00:00Z",
-                            "endAt": "2022-02-21T05:00:00Z",
-                            "imageURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/CAMPAIGN-51edec33-45e0-499d-9b71-f0d4b2db8d39.jpeg",
-                            "name": "R6S Six Invitational 2022 - Esports Pack Drops 7",
-                            "status": "EXPIRED",
-                            "self": {
-                                "isAccountConnected": true,
-                                "__typename": "DropCampaignSelfEdge"
-                            },
-                            "game": {
-                                "id": "460630",
-                                "name": "Tom Clancy's Rainbow Six Siege",
-                                "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/460630-285x380.jpg",
-                                "__typename": "Game"
-                            },
-                            "allow": {
-                                "channels": [
-                                    {
-                                        "id": "65171890",
-                                        "name": "rainbow6",
-                                        "url": "https://www.twitch.tv/rainbow6",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "246244003",
-                                        "name": "rainbow6bravo",
-                                        "url": "https://www.twitch.tv/rainbow6bravo",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "132106826",
-                                        "name": "r6esportsbr",
-                                        "url": "https://www.twitch.tv/r6esportsbr",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "563259666",
-                                        "name": "r6esportsbr2",
-                                        "url": "https://www.twitch.tv/r6esportsbr2",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "76457409",
-                                        "name": "rainbow6de",
-                                        "url": "https://www.twitch.tv/rainbow6de",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "70815714",
-                                        "name": "rainbow6es",
-                                        "url": "https://www.twitch.tv/rainbow6es",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "233992790",
-                                        "name": "rainbow6latam",
-                                        "url": "https://www.twitch.tv/rainbow6latam",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "232300705",
-                                        "name": "rainbow6fr",
-                                        "url": "https://www.twitch.tv/rainbow6fr",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "69389343",
-                                        "name": "rainbow6it",
-                                        "url": "https://www.twitch.tv/rainbow6it",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "125573753",
-                                        "name": "rainbow6ru",
-                                        "url": "https://www.twitch.tv/rainbow6ru",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "208760543",
-                                        "name": "rainbow6jp",
-                                        "url": "https://www.twitch.tv/rainbow6jp",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "196668369",
-                                        "name": "rainbow6kr",
-                                        "url": "https://www.twitch.tv/rainbow6kr",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "114530910",
-                                        "name": "rainbow6pl",
-                                        "url": "https://www.twitch.tv/rainbow6pl",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "52686298",
-                                        "name": "rainbow6bnl",
-                                        "url": "https://www.twitch.tv/rainbow6bnl",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "253633611",
-                                        "name": "rainbow6hu",
-                                        "url": "https://www.twitch.tv/rainbow6hu",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "204905060",
-                                        "name": "rainbow6th",
-                                        "url": "https://www.twitch.tv/rainbow6th",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "662505393",
-                                        "name": "rainbow6cntwitch",
-                                        "url": "https://www.twitch.tv/rainbow6cntwitch",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "204902476",
-                                        "name": "rainbow6tw",
-                                        "url": "https://www.twitch.tv/rainbow6tw",
-                                        "__typename": "Channel"
-                                    }
-                                ],
-                                "__typename": "DropCampaignACL"
-                            },
-                            "eventBasedDrops": [],
-                            "timeBasedDrops": [
-                                {
-                                    "id": "4b053c66-4142-4761-a2a6-24c639745171",
-                                    "name": "SI 2022 Esports Pack 7.1",
-                                    "startAt": "2022-02-20T05:00:00Z",
-                                    "endAt": "2022-02-21T05:00:00Z",
-                                    "preconditionDrops": null,
-                                    "requiredMinutesWatched": 120,
-                                    "benefitEdges": [
-                                        {
-                                            "benefit": {
-                                                "id": "r6s_si2022_esportsdrops_pack_7_2hours",
-                                                "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/BENEFIT-72f89740-61bf-4a36-a99f-0c8fe7dd3a21.jpeg",
-                                                "name": "SI 2022 Esports Pack 7.1",
-                                                "__typename": "DropBenefit"
-                                            },
-                                            "entitlementLimit": 1,
-                                            "claimCount": 0,
-                                            "__typename": "DropBenefitEdge"
-                                        }
-                                    ],
-                                    "self": {
-                                        "hasPreconditionsMet": true,
-                                        "currentMinutesWatched": 18,
-                                        "isClaimed": false,
-                                        "dropInstanceID": null,
-                                        "__typename": "TimeBasedDropSelfEdge"
-                                    },
-                                    "campaign": {
-                                        "id": "897efb78-5155-43d5-8f7a-3f5dc08aae1f",
-                                        "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                                        "accountLinkURL": "https://drops-register.ubi.com/",
-                                        "self": {
-                                            "isAccountConnected": true,
-                                            "__typename": "DropCampaignSelfEdge"
-                                        },
-                                        "__typename": "DropCampaign"
-                                    },
-                                    "__typename": "TimeBasedDrop"
-                                },
-                                {
-                                    "id": "93e1ece8-a9fb-453f-83d7-5d292f7731fc",
-                                    "name": "SI 2022 Esports Pack 7.2",
-                                    "startAt": "2022-02-20T05:00:00Z",
-                                    "endAt": "2022-02-21T05:00:00Z",
-                                    "preconditionDrops": [
-                                        {
-                                            "id": "4b053c66-4142-4761-a2a6-24c639745171",
-                                            "__typename": "TimeBasedDrop"
-                                        }
-                                    ],
-                                    "requiredMinutesWatched": 120,
-                                    "benefitEdges": [
-                                        {
-                                            "benefit": {
-                                                "id": "r6s_si2022_esportsdrops_pack_7_4hours",
-                                                "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/BENEFIT-b9629be8-5f2c-4a90-bf31-df96ffd44e77.jpeg",
-                                                "name": "SI 2022 Esports Pack 7.2",
-                                                "__typename": "DropBenefit"
-                                            },
-                                            "entitlementLimit": 1,
-                                            "claimCount": 0,
-                                            "__typename": "DropBenefitEdge"
-                                        }
-                                    ],
-                                    "self": {
-                                        "hasPreconditionsMet": false,
-                                        "currentMinutesWatched": 0,
-                                        "isClaimed": false,
-                                        "dropInstanceID": null,
-                                        "__typename": "TimeBasedDropSelfEdge"
-                                    },
-                                    "campaign": {
-                                        "id": "897efb78-5155-43d5-8f7a-3f5dc08aae1f",
-                                        "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                                        "accountLinkURL": "https://drops-register.ubi.com/",
-                                        "self": {
-                                            "isAccountConnected": true,
-                                            "__typename": "DropCampaignSelfEdge"
-                                        },
-                                        "__typename": "DropCampaign"
-                                    },
-                                    "__typename": "TimeBasedDrop"
-                                },
-                                {
-                                    "id": "7c5ee932-e457-4ecd-982e-819f9175ae96",
-                                    "name": "SI 2022 Esports Pack 7.3",
-                                    "startAt": "2022-02-20T05:00:00Z",
-                                    "endAt": "2022-02-21T05:00:00Z",
-                                    "preconditionDrops": [
-                                        {
-                                            "id": "93e1ece8-a9fb-453f-83d7-5d292f7731fc",
-                                            "__typename": "TimeBasedDrop"
-                                        }
-                                    ],
-                                    "requiredMinutesWatched": 180,
-                                    "benefitEdges": [
-                                        {
-                                            "benefit": {
-                                                "id": "r6s_si2022_esportsdrops_pack_7_7hours",
-                                                "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/BENEFIT-7035a532-01b6-49cc-8391-cde4eff68da1.jpeg",
-                                                "name": "SI 2022 Esports Pack 7.3",
-                                                "__typename": "DropBenefit"
-                                            },
-                                            "entitlementLimit": 1,
-                                            "claimCount": 0,
-                                            "__typename": "DropBenefitEdge"
-                                        }
-                                    ],
-                                    "self": {
-                                        "hasPreconditionsMet": false,
-                                        "currentMinutesWatched": 0,
-                                        "isClaimed": false,
-                                        "dropInstanceID": null,
-                                        "__typename": "TimeBasedDropSelfEdge"
-                                    },
-                                    "campaign": {
-                                        "id": "897efb78-5155-43d5-8f7a-3f5dc08aae1f",
-                                        "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                                        "accountLinkURL": "https://drops-register.ubi.com/",
-                                        "self": {
-                                            "isAccountConnected": true,
-                                            "__typename": "DropCampaignSelfEdge"
-                                        },
-                                        "__typename": "DropCampaign"
-                                    },
-                                    "__typename": "TimeBasedDrop"
-                                },
-                                {
-                                    "id": "6676eec0-ef6f-409a-8b71-b3e03e15f1d4",
-                                    "name": "SI 2022 Esports Pack 7.4",
-                                    "startAt": "2022-02-20T05:00:00Z",
-                                    "endAt": "2022-02-21T05:00:00Z",
-                                    "preconditionDrops": [
-                                        {
-                                            "id": "7c5ee932-e457-4ecd-982e-819f9175ae96",
-                                            "__typename": "TimeBasedDrop"
-                                        }
-                                    ],
-                                    "requiredMinutesWatched": 60,
-                                    "benefitEdges": [
-                                        {
-                                            "benefit": {
-                                                "id": "r6s_si2022_esportsdrops_pack_7_8hours",
-                                                "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/BENEFIT-cc864bc4-56d3-4dd3-b62e-446274f7e3de.jpeg",
-                                                "name": "SI 2022 Esports Pack 7.4",
-                                                "__typename": "DropBenefit"
-                                            },
-                                            "entitlementLimit": 1,
-                                            "claimCount": 0,
-                                            "__typename": "DropBenefitEdge"
-                                        }
-                                    ],
-                                    "self": {
-                                        "hasPreconditionsMet": false,
-                                        "currentMinutesWatched": 0,
-                                        "isClaimed": false,
-                                        "dropInstanceID": null,
-                                        "__typename": "TimeBasedDropSelfEdge"
-                                    },
-                                    "campaign": {
-                                        "id": "897efb78-5155-43d5-8f7a-3f5dc08aae1f",
-                                        "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                                        "accountLinkURL": "https://drops-register.ubi.com/",
-                                        "self": {
-                                            "isAccountConnected": true,
-                                            "__typename": "DropCampaignSelfEdge"
-                                        },
-                                        "__typename": "DropCampaign"
-                                    },
-                                    "__typename": "TimeBasedDrop"
-                                }
-                            ],
-                            "__typename": "DropCampaign"
-                        },
-                        {
-                            "id": "a9af7638-be9c-4cd5-b67a-dfb08233facd",
-                            "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                            "accountLinkURL": "https://drops-register.ubi.com/",
-                            "startAt": "2022-02-20T05:00:00Z",
-                            "endAt": "2022-02-21T05:00:00Z",
-                            "imageURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/CAMPAIGN-7a3921f6-fca0-413e-8961-b5d47a6cc9dd.jpeg",
-                            "name": "R6S Six Invitational 2022 - Final Drops",
-                            "status": "EXPIRED",
-                            "self": {
-                                "isAccountConnected": true,
-                                "__typename": "DropCampaignSelfEdge"
-                            },
-                            "game": {
-                                "id": "460630",
-                                "name": "Tom Clancy's Rainbow Six Siege",
-                                "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/460630-285x380.jpg",
-                                "__typename": "Game"
-                            },
-                            "allow": {
-                                "channels": [
-                                    {
-                                        "id": "65171890",
-                                        "name": "rainbow6",
-                                        "url": "https://www.twitch.tv/rainbow6",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "246244003",
-                                        "name": "rainbow6bravo",
-                                        "url": "https://www.twitch.tv/rainbow6bravo",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "132106826",
-                                        "name": "r6esportsbr",
-                                        "url": "https://www.twitch.tv/r6esportsbr",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "563259666",
-                                        "name": "r6esportsbr2",
-                                        "url": "https://www.twitch.tv/r6esportsbr2",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "76457409",
-                                        "name": "rainbow6de",
-                                        "url": "https://www.twitch.tv/rainbow6de",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "70815714",
-                                        "name": "rainbow6es",
-                                        "url": "https://www.twitch.tv/rainbow6es",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "233992790",
-                                        "name": "rainbow6latam",
-                                        "url": "https://www.twitch.tv/rainbow6latam",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "232300705",
-                                        "name": "rainbow6fr",
-                                        "url": "https://www.twitch.tv/rainbow6fr",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "69389343",
-                                        "name": "rainbow6it",
-                                        "url": "https://www.twitch.tv/rainbow6it",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "125573753",
-                                        "name": "rainbow6ru",
-                                        "url": "https://www.twitch.tv/rainbow6ru",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "208760543",
-                                        "name": "rainbow6jp",
-                                        "url": "https://www.twitch.tv/rainbow6jp",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "196668369",
-                                        "name": "rainbow6kr",
-                                        "url": "https://www.twitch.tv/rainbow6kr",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "114530910",
-                                        "name": "rainbow6pl",
-                                        "url": "https://www.twitch.tv/rainbow6pl",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "52686298",
-                                        "name": "rainbow6bnl",
-                                        "url": "https://www.twitch.tv/rainbow6bnl",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "253633611",
-                                        "name": "rainbow6hu",
-                                        "url": "https://www.twitch.tv/rainbow6hu",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "204905060",
-                                        "name": "rainbow6th",
-                                        "url": "https://www.twitch.tv/rainbow6th",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "662505393",
-                                        "name": "rainbow6cntwitch",
-                                        "url": "https://www.twitch.tv/rainbow6cntwitch",
-                                        "__typename": "Channel"
-                                    },
-                                    {
-                                        "id": "204902476",
-                                        "name": "rainbow6tw",
-                                        "url": "https://www.twitch.tv/rainbow6tw",
-                                        "__typename": "Channel"
-                                    }
-                                ],
-                                "__typename": "DropCampaignACL"
-                            },
-                            "eventBasedDrops": [],
-                            "timeBasedDrops": [
-                                {
-                                    "id": "288ca383-ca9b-4653-93ae-78812ce44b9c",
-                                    "name": "S.I. 2022 Iana Headgear",
-                                    "startAt": "2022-02-20T05:00:00Z",
-                                    "endAt": "2022-02-21T05:00:00Z",
-                                    "preconditionDrops": null,
-                                    "requiredMinutesWatched": 120,
-                                    "benefitEdges": [
-                                        {
-                                            "benefit": {
-                                                "id": "r6s_si2022_finaldrops_headgear",
-                                                "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/BENEFIT-abd64cd3-d7aa-4fcb-913f-109fbfe58063.jpeg",
-                                                "name": "S.I. 2022 Iana Headgear",
-                                                "__typename": "DropBenefit"
-                                            },
-                                            "entitlementLimit": 1,
-                                            "claimCount": 0,
-                                            "__typename": "DropBenefitEdge"
-                                        }
-                                    ],
-                                    "self": {
-                                        "hasPreconditionsMet": true,
-                                        "currentMinutesWatched": 18,
-                                        "isClaimed": false,
-                                        "dropInstanceID": null,
-                                        "__typename": "TimeBasedDropSelfEdge"
-                                    },
-                                    "campaign": {
-                                        "id": "a9af7638-be9c-4cd5-b67a-dfb08233facd",
-                                        "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                                        "accountLinkURL": "https://drops-register.ubi.com/",
-                                        "self": {
-                                            "isAccountConnected": true,
-                                            "__typename": "DropCampaignSelfEdge"
-                                        },
-                                        "__typename": "DropCampaign"
-                                    },
-                                    "__typename": "TimeBasedDrop"
-                                },
-                                {
-                                    "id": "2261dadf-070b-4d93-a837-dfc10fae22f0",
-                                    "name": "S.I. 2022 Iana Uniform",
-                                    "startAt": "2022-02-20T05:00:00Z",
-                                    "endAt": "2022-02-21T05:00:00Z",
-                                    "preconditionDrops": [
-                                        {
-                                            "id": "288ca383-ca9b-4653-93ae-78812ce44b9c",
-                                            "__typename": "TimeBasedDrop"
-                                        }
-                                    ],
-                                    "requiredMinutesWatched": 120,
-                                    "benefitEdges": [
-                                        {
-                                            "benefit": {
-                                                "id": "r6s_si2022_finaldrops_uniform",
-                                                "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-drops-assets-prod/BENEFIT-ec2b439f-a6c6-409e-8ec3-f2867bf30544.jpeg",
-                                                "name": "S.I. 2022 Iana Uniform",
-                                                "__typename": "DropBenefit"
-                                            },
-                                            "entitlementLimit": 1,
-                                            "claimCount": 0,
-                                            "__typename": "DropBenefitEdge"
-                                        }
-                                    ],
-                                    "self": {
-                                        "hasPreconditionsMet": false,
-                                        "currentMinutesWatched": 0,
-                                        "isClaimed": false,
-                                        "dropInstanceID": null,
-                                        "__typename": "TimeBasedDropSelfEdge"
-                                    },
-                                    "campaign": {
-                                        "id": "a9af7638-be9c-4cd5-b67a-dfb08233facd",
-                                        "detailsURL": "https://rainbow6.com/SI2022TwitchDrops",
-                                        "accountLinkURL": "https://drops-register.ubi.com/",
-                                        "self": {
-                                            "isAccountConnected": true,
                                             "__typename": "DropCampaignSelfEdge"
                                         },
                                         "__typename": "DropCampaign"
@@ -25036,9 +24586,9 @@
             }
         },
         "extensions": {
-            "durationMilliseconds": 159,
+            "durationMilliseconds": 127,
             "operationName": "Inventory",
-            "requestID": "01FWFAXJR5HBXV03VAT96VBHG0"
+            "requestID": "01FWKTZWZ2YZGXWE4A9BSZKT77"
         }
     }
 ]

@@ -66,6 +66,19 @@ Get an access token and signature to use for an m3u8 playlist
 
 Get highlights/game changes of a vod
 
+## GetDirectoryPageGame(game)
+
+- `game` - The name of the Game e.g.: "tom clancy's rainbow six siege"
+
+Get whole Directory of a Game on twitch
+
+## GetLiveStatus(channelLogin)
+
+- `channelLogin` - The video ID you want to request the access token for
+
+Get the Live Status of a streamer.  
+Returns True for Live, False for Offline and Null for Streamer not found.
+
 ## _SendQuery(QueryName, variables, sha256Hash, OAuth, preset)
 
 - `QueryName` - The name of a preset query in the `queries` directory  
@@ -78,7 +91,7 @@ Get highlights/game changes of a vod
 
 - `OAuth` - Ability to Provide a OAuth Token to get otherwise Inaccessible content like inventory
 
-- `preset` - (default false) if `true` this will use 
+- `preset` - (default false) if `true` this will use provided sha256 otherwise will search
 
 Send a raw query through GraphQL
 

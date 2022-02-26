@@ -1,0 +1,16 @@
+[
+    {
+        "data": {
+            "user": {
+                "id": "50985620",
+                "stream": null,
+                "__typename": "User"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 38,
+            "operationName": "VideoPlayerStatusOverlayChannel",
+            "requestID": "01FWHDHHQDCM2NENEY5JC7J24W"
+        }
+    }
+]

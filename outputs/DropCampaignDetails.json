@@ -1,0 +1,29 @@
+[
+    {
+        "errors": [
+            {
+                "message": "Variable \"dropID\" has invalid value null.\nExpected type \"ID!\", found null.",
+                "locations": [
+                    {
+                        "line": 1,
+                        "column": 27
+                    }
+                ]
+            },
+            {
+                "message": "Variable \"channelLogin\" has invalid value null.\nExpected type \"ID!\", found null.",
+                "locations": [
+                    {
+                        "line": 1,
+                        "column": 41
+                    }
+                ]
+            }
+        ],
+        "extensions": {
+            "durationMilliseconds": 2,
+            "operationName": "DropCampaignDetails",
+            "requestID": "01FWHC70SES2NRE7VVFSWQ5JFZ"
+        }
+    }
+]

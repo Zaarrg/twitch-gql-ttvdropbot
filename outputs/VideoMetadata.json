@@ -7,8 +7,8 @@
                 "isPartner": true,
                 "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/asmongold-profile_image-f7ddcbd0332f5d28-70x70.png",
                 "lastBroadcast": {
-                    "id": "45596520157",
-                    "startedAt": "2022-02-21T01:11:08.198989Z",
+                    "id": "45630840493",
+                    "startedAt": "2022-02-23T15:17:52.344883Z",
                     "__typename": "Broadcast"
                 },
                 "__typename": "User"
@@ -20,7 +20,7 @@
                 "description": "Almost 1 mil  ",
                 "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/68f20b3f31_asmongold_24919466208_626137133//thumb/thumb132195945-{width}x{height}.jpg",
                 "createdAt": "2017-03-30T10:23:09Z",
-                "viewCount": 85164,
+                "viewCount": 85491,
                 "publishedAt": "2017-03-30T10:23:09Z",
                 "lengthSeconds": 512,
                 "broadcastType": "HIGHLIGHT",
@@ -41,9 +41,9 @@
             }
         },
         "extensions": {
-            "durationMilliseconds": 38,
+            "durationMilliseconds": 40,
             "operationName": "VideoMetadata",
-            "requestID": "01FWFAXGWHC9QEBQQ7ZEB4D80M"
+            "requestID": "01FWKTZTSD7SFDP1Z7Z5FXFZYV"
         }
     }
 ]

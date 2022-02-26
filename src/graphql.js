@@ -12,7 +12,10 @@ const Operation_Hashes = {
     'PlaybackAccessToken': '0828119ded1c13477966434e15800ff57ddacf13ba1911c129dc2200705b0712',
     'VideoPreviewCard__VideoMoments': '0094e99aab3438c7a220c0b1897d144be01954f8b4765b884d330d0c0893dbde',
     'VideoMetadata': 'cb3b1eb2f2d2b2f65b8389ba446ec521d76c3aa44f5424a1b1d235fe21eb4806',
-    'ChatClip': '9aa558e066a22227c5ef2c0a8fded3aaa57d35181ad15f63df25bff516253a90'
+    'ChatClip': '9aa558e066a22227c5ef2c0a8fded3aaa57d35181ad15f63df25bff516253a90',
+    'UseLive': '639d5f11bfb8bf3053b424d9ef650d04c4ebb7d94711d644afb08fe9a0fad5d9',
+    'DirectoryPage_Game': 'd5c5df7ab9ae65c3ea0f225738c08a36a4a76e4c6c31db7f8c4b8dc064227f9e',
+    'ViewerDropsDashboard': 'e8b98b52bbd7ccd37d0b671ad0d47be5238caa5bea637d2a65776175b4a23a64'
 };
 
 const GraphQL = {
