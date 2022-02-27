@@ -1,12 +1,21 @@
 [
     {
         "data": {
-            "user": null
+            "user": {
+                "id": "49099014",
+                "login": "marty_vole",
+                "stream": {
+                    "id": "45678248877",
+                    "createdAt": "2022-02-27T14:47:11Z",
+                    "__typename": "Stream"
+                },
+                "__typename": "User"
+            }
         },
         "extensions": {
-            "durationMilliseconds": 21,
+            "durationMilliseconds": 41,
             "operationName": "UseLive",
-            "requestID": "01FWKTZW2BJ66ZMYPRJ0431MRR"
+            "requestID": "01FWY0P9H4RG9WNQDXK3T0MGHX"
         }
     }
 ]

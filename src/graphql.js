@@ -62,9 +62,6 @@ const GraphQL = {
                     console.log(err);
                 }
             }
-    
-            fs.writeFileSync(`${__dirname}/../outputs/${QueryName}.json`, JSON.stringify(data, null, 4))
-    
             return data;
         });
     }
