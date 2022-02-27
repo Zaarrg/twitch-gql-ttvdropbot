@@ -1,17 +1,17 @@
 {
   "name": "@Zaarrg/twitch-gql-ttvdropbot",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "",
   "main": "index.js",
   "publishConfig": {
-      "registry": "https://npm.pkg.github.com"
-  },  
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-      "jest": "^27.5.1"
-  },  
+    "jest": "^27.5.1"
+  },
   "scripts": {
     "test": "jest"
   },
