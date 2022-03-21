@@ -47,6 +47,7 @@ const GraphQL = {
             method: "POST",
             headers: {
                 "Content-Type": "text/plain;charset=UTF-8",
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
                 "Authorization": OAuth,
                 "Client-Id": GraphQL.ClientID
             },
