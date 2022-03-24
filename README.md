@@ -4,9 +4,9 @@
 
 # Installation
 
-Install it from [npm](https://www.npmjs.com/package/twitch-gql):
+Install it from [npm](https://www.npmjs.com/package/@ttvdropbot/twitch-gql):
 
-    $ npm install twitch-gql
+    $ npm install @ttvdropbot/twitch-gql
 
 # Contents
 - [How to use](#how-to-use)

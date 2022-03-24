@@ -1,6 +1,6 @@
 {
-  "name": "@Zaarrg/twitch-gql-ttvdropbot",
-  "version": "1.4.5",
+  "name": "@ttvdropbot/twitch-gql",
+  "version": "1.4.6",
   "description": "",
   "main": "index.js",
   "publishConfig": {
