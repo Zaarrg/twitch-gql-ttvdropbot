@@ -4,6 +4,12 @@ const Twitch = {
     async SetClientID(ClientID) {
         GraphQL.ClientID = ClientID;
     },
+    async SetRetryTimeout(timeout) {
+        GraphQL.retrytimeout = timeout
+    },
+    async SetRetryAmount(amount) {
+        GraphQL.maxretries = amount
+    },
     async GetUser(login, variables = {}) {
         variables = {...variables, login};
         return await GraphQL.SendQuery("GET_USER", variables);

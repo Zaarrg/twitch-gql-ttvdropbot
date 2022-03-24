@@ -79,6 +79,18 @@ Get whole Directory of a Game on twitch
 Get the Live Status of a streamer.  
 Returns True for Live, False for Offline and Null for Streamer not found.
 
+## SetRetryTimeout(timeout)
+
+- `timeout` - Timeout in ms, between the retries.
+
+Set the Retry timeout.
+
+## SetRetryAmount(amount)
+
+- `amount` - The max amount of retries.
+
+Set the maximum of Retries.
+
 ## _SendQuery(QueryName, variables, sha256Hash, OAuth, preset)
 
 - `QueryName` - The name of a preset query in the `queries` directory  

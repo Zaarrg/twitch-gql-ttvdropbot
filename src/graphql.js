@@ -21,6 +21,9 @@ const Operation_Hashes = {
 const GraphQL = {
     Endpoint: "https://gql.twitch.tv/gql",
     ClientID: null,
+    retries: 0,
+    retrytimeout: 30000,
+    maxretries: 3,
 
     SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false) => {
         let body = { variables };
@@ -54,19 +57,31 @@ const GraphQL = {
             body: JSON.stringify(body),
         })
         .then((r) => r.json())
-        .then((data) => {
-            if (data.errors || (data[0] && data[0].errors)) {
-                let errs = data.length ? data[0].errors : data.errors;
-                for (let i = 0; i < errs.length; i++) {
-                    const err = errs[i];
+        .then(async (data) => {
+            if (data.errors || (data[0] && data[0].errors) || data.error) {
+                if (GraphQL.retries < GraphQL.maxretries) {
+                    GraphQL.retries++
+                    console.log("ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
+                    await delay(GraphQL.retrytimeout)
+                    await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
+                } else {
                     console.log("ERROR!");
-                    console.log(err);
+                    if (data instanceof Array) {
+                        if (data[0] && data[0].errors) {
+                            throw JSON.stringify(data[0].errors)
+                        }
+                        throw JSON.stringify(data)
+                    } 
+                    throw JSON.stringify(data)
                 }
             }
+            GraphQL.retries = 0;
             return data;
         });
     }
 }
-
+async function delay(ms) {
+    return await new Promise(resolve => setTimeout(resolve, ms));
+}
 
 module.exports = GraphQL;

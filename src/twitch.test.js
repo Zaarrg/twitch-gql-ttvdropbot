@@ -359,3 +359,12 @@ describe("Queries", () => {
     });
 });
 // END QUERIES
+
+describe("Errors", () => {
+    test("Error Test", async () => {
+        await expect(async () => {
+            await TwitchGQL.SetRetryTimeout(1000)
+            await TwitchGQL._SendQuery("Inveny", {}, '27f074f54ff7589ccd693a1a52ccca7367', '', true)
+        }).rejects.toEqual(expect.any(String))
+    });
+})
