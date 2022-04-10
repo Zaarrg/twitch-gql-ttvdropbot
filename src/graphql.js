@@ -1,4 +1,4 @@
-const fetch = require("node-fetch-retry");
+const fetch = require("node-fetch-retry-callback");
 const fs = require("fs");
 
 const Operation_Hashes = {
@@ -58,7 +58,7 @@ const GraphQL = {
             retry: GraphQL.maxretries,
             pause: GraphQL.retrytimeout,
             silent: true,
-            callback: retry => { console.log("ERROR " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + ((GraphQL.maxretries - retry) + 1) + "/" + GraphQL.maxretries) }
+            callback: retry => { console.log("ERROR " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + retry + "/" + GraphQL.maxretries) }
         })
         .then((r) => r.json())
         .then(async (data) => {
