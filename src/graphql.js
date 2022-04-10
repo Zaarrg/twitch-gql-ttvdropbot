@@ -60,14 +60,13 @@ const GraphQL = {
             .then((response) => {return response.data})
             .then(async (data) => {
                 if (data.errors || (data[0] && data[0].errors) || data.error) {
-                    await errorHandler(data, QueryName, variables, sha256Hash, OAuth, preset)
-                } else {
+                    return await errorHandler(data, QueryName, variables, sha256Hash, OAuth, preset)
+                }
                     GraphQL.retries = 0;
                     return data
-                }
             })
             .catch(async function (error) {
-                await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset)
+                return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset)
             })
     }
 }
@@ -82,7 +81,7 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
             console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
         }
         await delay(GraphQL.retrytimeout)
-        await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
     } else {
         if (error.code === undefined) {
             if (error instanceof Array) {
@@ -94,7 +93,6 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
             throw "GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname
         }
     }
-    return error
 }
 
 async function delay(ms) {
