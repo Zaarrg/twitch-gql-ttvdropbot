@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+const fetch = require("node-fetch-retry");
 const fs = require("fs");
 
 const Operation_Hashes = {
@@ -22,8 +22,8 @@ const GraphQL = {
     Endpoint: "https://gql.twitch.tv/gql",
     ClientID: null,
     retries: 0,
-    retrytimeout: 30000,
-    maxretries: 3,
+    retrytimeout: 60000,
+    maxretries: 4,
 
     SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false) => {
         let body = { variables };
@@ -55,6 +55,10 @@ const GraphQL = {
                 "Client-Id": GraphQL.ClientID
             },
             body: JSON.stringify(body),
+            retry: GraphQL.maxretries,
+            pause: GraphQL.retrytimeout,
+            silent: true,
+            callback: retry => { console.log("ERROR " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + ((GraphQL.maxretries - retry) + 1) + "/" + GraphQL.maxretries) }
         })
         .then((r) => r.json())
         .then(async (data) => {
@@ -77,7 +81,7 @@ const GraphQL = {
             }
             GraphQL.retries = 0;
             return data;
-        });
+        })
     }
 }
 async function delay(ms) {
