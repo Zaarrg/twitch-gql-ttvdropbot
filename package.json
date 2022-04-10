@@ -1,13 +1,13 @@
 {
   "name": "@zaarrg/twitch-gql-ttvdropbot",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Allows interaction with Twitch inner GQL, modified for TTVDropBot",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "node-fetch-retry-callback": "^1.0.0"
+    "axios": "^0.26.1"
   },
   "devDependencies": {
     "chai": "^4.3.6",

@@ -1,4 +1,4 @@
-const fetch = require("node-fetch-retry-callback");
+const axios = require("axios")
 const fs = require("fs");
 
 const Operation_Hashes = {
@@ -46,44 +46,57 @@ const GraphQL = {
             body = [body];
         }
         
-        return fetch(GraphQL.Endpoint, {
+        return axios({
             method: "POST",
+            url: GraphQL.Endpoint,
             headers: {
                 "Content-Type": "text/plain;charset=UTF-8",
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
                 "Authorization": OAuth,
                 "Client-Id": GraphQL.ClientID
             },
-            body: JSON.stringify(body),
-            retry: GraphQL.maxretries,
-            pause: GraphQL.retrytimeout,
-            silent: true,
-            callback: retry => { console.log("ERROR " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + retry + "/" + GraphQL.maxretries) }
+            data: JSON.stringify(body)
         })
-        .then((r) => r.json())
-        .then(async (data) => {
-            if (data.errors || (data[0] && data[0].errors) || data.error) {
-                if (GraphQL.retries < GraphQL.maxretries) {
-                    GraphQL.retries++
-                    console.log("ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
-                    await delay(GraphQL.retrytimeout)
-                    await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
+            .then((response) => {return response.data})
+            .then(async (data) => {
+                if (data.errors || (data[0] && data[0].errors) || data.error) {
+                    await errorHandler(data, QueryName, variables, sha256Hash, OAuth, preset)
                 } else {
-                    console.log("ERROR!");
-                    if (data instanceof Array) {
-                        if (data[0] && data[0].errors) {
-                            throw JSON.stringify(data[0].errors)
-                        }
-                        throw JSON.stringify(data)
-                    } 
-                    throw JSON.stringify(data)
+                    GraphQL.retries = 0;
+                    return data
                 }
-            }
-            GraphQL.retries = 0;
-            return data;
-        })
+            })
+            .catch(async function (error) {
+                await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset)
+            })
     }
 }
+
+async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset) {
+    if (GraphQL.retries < GraphQL.maxretries) {
+        GraphQL.retries++
+        if (error instanceof Array) {
+            console.log("GQL RESPONSE ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
+        } else {
+            console.log("GQL ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout / 1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
+            console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
+        }
+        await delay(GraphQL.retrytimeout)
+        await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
+    } else {
+        if (error.code === undefined) {
+            if (error instanceof Array) {
+                throw JSON.stringify(error[0].errors)
+            } else {
+                throw error
+            }
+        } else {
+            throw "GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname
+        }
+    }
+    return error
+}
+
 async function delay(ms) {
     return await new Promise(resolve => setTimeout(resolve, ms));
 }
