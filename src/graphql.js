@@ -46,6 +46,15 @@ const GraphQL = {
             body = [body];
         }
         
+        let tokenrequest = await axios({
+            method: "POST",
+            url: 'https://gql.twitch.tv/integrity',
+            headers: {
+                "Client-Id": GraphQL.ClientID
+            },
+            data: {}
+        })
+        
         return axios({
             method: "POST",
             url: GraphQL.Endpoint,
@@ -53,7 +62,8 @@ const GraphQL = {
                 "Content-Type": "text/plain;charset=UTF-8",
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
                 "Authorization": OAuth,
-                "Client-Id": GraphQL.ClientID
+                "Client-Id": GraphQL.ClientID,
+                "Client-Integrity": tokenrequest.data.token
             },
             data: JSON.stringify(body)
         })
