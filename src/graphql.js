@@ -25,7 +25,7 @@ const GraphQL = {
     retrytimeout: 60000,
     maxretries: 4,
 
-    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Integrity = true) => {
+    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}) => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
     
@@ -45,18 +45,6 @@ const GraphQL = {
             };
             body = [body];
         }
-        let tokenrequest = '';
-        if (Integrity) {
-            let result = await axios({
-                method: "POST",
-                url: 'https://gql.twitch.tv/integrity',
-                headers: {
-                    "Client-Id": GraphQL.ClientID
-                },
-                data: {}
-            }) 
-            tokenrequest = result.data.token
-        }
         
         return axios({
             method: "POST",
@@ -66,11 +54,11 @@ const GraphQL = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
                 "Authorization": OAuth,
                 "Client-Id": GraphQL.ClientID,
-                "Client-Integrity": tokenrequest
+                ...Headers
             },
             data: JSON.stringify(body)
         })
-            .then((response) => {return response.data})
+            .then((response) => {console.log(response); return response.data})
             .then(async (data) => {
                 if (data.errors || (data[0] && data[0].errors) || data.error) {
                     return await errorHandler(data, QueryName, variables, sha256Hash, OAuth, preset)

@@ -80,8 +80,8 @@ const Twitch = {
             return livestatus[0].data.user.stream != null
         }
     },
-    async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, Integrity = true) {
-        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, Integrity);
+    async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, headers = {}) {
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, headers);
     }
 };
 
