@@ -1,7 +1,8 @@
-const TwitchGQL = require("..").Init();
+import TwitchGQL from "../index.js";
+TwitchGQL.Init();
 
 (async () => {
-    let CurrentTopStreams = await TwitchGQL.GetTopStreams();
+    let CurrentTopStreams = await TwitchGQL.client.GetTopStreams();
     CurrentTopStreams = CurrentTopStreams.data.streams.edges;
 
     for (let i = 0; i < CurrentTopStreams.length; i++) {

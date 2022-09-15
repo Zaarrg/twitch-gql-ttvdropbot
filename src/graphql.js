@@ -1,5 +1,6 @@
-const axios = require("axios")
-const fs = require("fs");
+import axios from "axios";
+import fs from "fs"
+import fetch from 'node-fetch';
 
 const Operation_Hashes = {
     'CollectionSideBar': '27111f1b382effad0b6def325caef1909c733fe6a4fbabf54f8d491ef2cf2f14',
@@ -25,15 +26,18 @@ const GraphQL = {
     retrytimeout: 60000,
     maxretries: 4,
 
-    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}) => {
+    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = true) => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
     
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
     
+        let path = './queries'
+        
+        
         if (!preset) {
-            body.query = fs.readFileSync(`${__dirname}/../queries/${QueryName}.gql`, "UTF-8");
+            body.query = fs.readFileSync(`././queries/${QueryName}.gql`, "UTF-8");
         }
         else {
             body.operationName = QueryName;
@@ -45,30 +49,86 @@ const GraphQL = {
             };
             body = [body];
         }
+        let integriheaders = {}
         
-        return axios({
-            method: "POST",
-            url: GraphQL.Endpoint,
-            headers: {
-                "Content-Type": "text/plain;charset=UTF-8",
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
-                "Authorization": OAuth,
-                "Client-Id": GraphQL.ClientID,
-                ...Headers
-            },
-            data: JSON.stringify(body)
-        })
-            .then((response) => {return response.data})
-            .then(async (data) => {
-                if (data.errors || (data[0] && data[0].errors) || data.error) {
-                    return await errorHandler(data, QueryName, variables, sha256Hash, OAuth, preset)
+        if (Integrity) {
+            //Integrity
+            let client = GraphQL.ClientID
+            let session = ''
+            let deviceid = ''
+            let version = ''
+            let integrity = ''
+            let auth = ''
+
+            //session + device + client
+            const response = await fetch('https://twitch.tv');
+            let cookies = response.headers.raw()["set-cookie"]
+
+            cookies.forEach((cookie) => {
+                if (cookie.startsWith('server_session_id')) {
+                    let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
+                    session = value[0]
+                } else if (cookie.startsWith('unique_id') && !cookie.startsWith('unique_id_durable')) {
+                    let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
+                    deviceid = value[0]
                 }
-                    GraphQL.retries = 0;
-                    return data
             })
-            .catch(async function (error) {
-                return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset)
-            })
+
+            let htmlReg = new RegExp('twilightBuildID="([-a-z0-9]+)"')
+            let rawdata = await response.text()
+            let clientversion = htmlReg.exec(rawdata.toString())
+            version = clientversion[1]
+
+            //integrity
+
+            const result = await fetch('https://gql.twitch.tv/integrity', {
+                method: 'post',
+                body: JSON.stringify({}),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Client-ID': GraphQL.ClientID,
+                    'Client-Session-Id': session,
+                    'X-Device-Id': deviceid,
+                    'Client-Version': version,
+                    'Authorization': 'OAuth 8ia1omq99s6w5rlj33cegviylcc3m3'
+                }
+            });
+            const data = await result.json();
+            integrity = data.token
+
+            integriheaders = {
+                'Client-Session-Id': session,
+                'Client-Integrity': integrity,
+                'X-Device-Id': deviceid,
+                'Client-Version': version
+            }
+        }
+
+        let GraphGQLResponse = {}
+        
+        try {
+            const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
+                method: 'post',
+                body: JSON.stringify(body),
+                headers: {
+                    "Content-Type": 'application/json',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
+                    "Authorization": OAuth,
+                    "Client-Id": GraphQL.ClientID,
+                    ...integriheaders,
+                    ...Headers
+                }
+            });
+            GraphGQLResponse = await GraphGQLRequest.json();
+        } catch (error) {
+            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset)
+        }
+        
+        if (GraphGQLResponse.errors || (GraphGQLResponse[0] && GraphGQLResponse[0].errors) || GraphGQLResponse.error) {
+            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset)
+        }
+        GraphQL.retries = 0;
+        return GraphGQLResponse
     }
 }
 
@@ -100,4 +160,4 @@ async function delay(ms) {
     return await new Promise(resolve => setTimeout(resolve, ms));
 }
 
-module.exports = GraphQL;
+export default GraphQL;

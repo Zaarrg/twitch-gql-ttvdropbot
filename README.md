@@ -18,10 +18,11 @@ Install it from [npm](https://github.com/Zaarrg/twitch-gql-ttvdropbot):
 Head over to the `examples/` directory for examples.
 
 ```js
-const TwitchGQL = require("twitch-gql").Init();
+import TwitchGQL from "../index.js";
+TwitchGQL.Init();
 
 (async () => {
-    let CurrentTopStreams = await TwitchGQL.GetTopStreams();
+    let CurrentTopStreams = await TwitchGQL.client.GetTopStreams();
     CurrentTopStreams = CurrentTopStreams.data.streams.edges;
 
     console.log(CurrentTopStreams);
@@ -91,7 +92,7 @@ Set the Retry timeout.
 
 Set the maximum of Retries.
 
-## _SendQuery(QueryName, variables, sha256Hash, OAuth, preset)
+## _SendQuery(QueryName, variables, sha256Hash, OAuth, preset, headers, integrity)
 
 - `QueryName` - The name of a preset query in the `queries` directory  
   In the case the `preset` parameter is true,
@@ -104,6 +105,10 @@ Set the maximum of Retries.
 - `OAuth` - Ability to Provide a OAuth Token to get otherwise Inaccessible content like inventory
 
 - `preset` - (default false) if `true` this will use provided sha256 otherwise will search
+
+- `headers` - Add more headers to the request Format: ({'Cookie': '...'})
+
+- `integrity` - (default true) if `false` will skip the integrity check
 
 Send a raw query through GraphQL
 

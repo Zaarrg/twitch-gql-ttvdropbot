@@ -1,10 +1,11 @@
-const TwitchGQL = require("..").Init();
+import TwitchGQL from "../index.js";
+TwitchGQL.Init();
 
 (async () => {
     let opts = {}
     let activecampaings = []
     
-    const DropCampaignDetails = await TwitchGQL._SendQuery("ViewerDropsDashboard", opts, '', process.env.TWITCH_OAUTH_TOKEN, true)
+    const DropCampaignDetails = await TwitchGQL.client._SendQuery("ViewerDropsDashboard", opts, '', process.env.TWITCH_OAUTH_TOKEN, true)
     let alldrops = DropCampaignDetails[0].data.currentUser.dropCampaigns
     
     console.log(alldrops[0])

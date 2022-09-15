@@ -1,16 +1,17 @@
+import Twitch from "./src/twitch.js";
+
 const TwitchGQL = { 
-    client: require("./src/twitch"),
+    client: Twitch,
     isInitialized: false,
 
     Init: (ClientID = "kimne78kx3ncx6brgo4mv6wki5h1ko") => {
-        if (TwitchGQL.isInitialized)
+        if (TwitchGQL.client.isInitialized)
             return TwitchGQL.client;
 
         TwitchGQL.client.SetClientID(ClientID);
         TwitchGQL.isInitialized = true;
-
         return TwitchGQL.client;
     }
 }
 
-module.exports = TwitchGQL;
+export default TwitchGQL;
