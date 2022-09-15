@@ -25,7 +25,7 @@ const GraphQL = {
     retrytimeout: 60000,
     maxretries: 4,
 
-    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false) => {
+    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Integrity = true) => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
     
@@ -45,15 +45,18 @@ const GraphQL = {
             };
             body = [body];
         }
-        
-        let tokenrequest = await axios({
-            method: "POST",
-            url: 'https://gql.twitch.tv/integrity',
-            headers: {
-                "Client-Id": GraphQL.ClientID
-            },
-            data: {}
-        })
+        let tokenrequest = '';
+        if (Integrity) {
+            let result = await axios({
+                method: "POST",
+                url: 'https://gql.twitch.tv/integrity',
+                headers: {
+                    "Client-Id": GraphQL.ClientID
+                },
+                data: {}
+            }) 
+            tokenrequest = result.data.token
+        }
         
         return axios({
             method: "POST",
@@ -63,7 +66,7 @@ const GraphQL = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
                 "Authorization": OAuth,
                 "Client-Id": GraphQL.ClientID,
-                "Client-Integrity": tokenrequest.data.token
+                "Client-Integrity": tokenrequest
             },
             data: JSON.stringify(body)
         })
