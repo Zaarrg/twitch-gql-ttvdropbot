@@ -58,7 +58,7 @@ const GraphQL = {
             },
             data: JSON.stringify(body)
         })
-            .then((response) => {console.log(response); return response.data})
+            .then((response) => {return response.data})
             .then(async (data) => {
                 if (data.errors || (data[0] && data[0].errors) || data.error) {
                     return await errorHandler(data, QueryName, variables, sha256Hash, OAuth, preset)
