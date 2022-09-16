@@ -1,10 +1,8 @@
 // const { test, expect, describe } = require("@jest/globals");
 
-import TwitchGQL from "../index.js";
-TwitchGQL.Init();
-import * as chai from "chai";
-import chaiMatchPattern from 'chai-match-pattern';
-
+const TwitchGQL = require("..").Init();
+const chai = require('chai');
+const chaiMatchPattern = require('chai-match-pattern');
 const expect = chai.expect;
 const _ = chaiMatchPattern.getLodashModule();
 chai.use(chaiMatchPattern);
@@ -16,7 +14,7 @@ const VIDEOS = ["132195945", "1121890940"];
 describe('Operations', function () {
     
         it('GetLiveStatus', async function () {
-            const status = await TwitchGQL.client.GetLiveStatus('solaaa')
+            const status = await TwitchGQL.GetLiveStatus('solaaa')
             expect(status).to.be.a('boolean')
         });
 
@@ -31,7 +29,7 @@ describe('Operations', function () {
                 stream: _.isNull
             };
             
-            let data = await TwitchGQL.client.GetUser('zaarrg');
+            let data = await TwitchGQL.GetUser('zaarrg');
             chai.expect(data.data.user).to.matchPattern(UserModel);
         });
 
@@ -47,7 +45,7 @@ describe('Operations', function () {
             game: _.isObject,
         };
 
-            let data = await TwitchGQL.client.GetTopStreams(10);
+            let data = await TwitchGQL.GetTopStreams(10);
             let streams = data.data.streams.edges.map((i) => i.node);
 
             expect(streams).to.be.length(10)
@@ -76,7 +74,7 @@ describe('Operations', function () {
             __typename: _.isString
         };
 
-            let data = await TwitchGQL.client.GetVideos(
+            let data = await TwitchGQL.GetVideos(
                 USERS[Math.round(Math.random() * (USERS.length - 1))]
             );
             let videos = data[0].data.user.videos.edges.map((i) => i.node);
@@ -96,7 +94,7 @@ describe('Operations', function () {
             __typename: String
         };
 
-            let data = await TwitchGQL.client.GetPlaybackAccessToken(VIDEOS[0]);
+            let data = await TwitchGQL.GetPlaybackAccessToken(VIDEOS[0]);
             let playback_access_token = data[0].data.videoPlaybackAccessToken;
             
             expect(playback_access_token).to.matchPattern(PlaybackAccessTokenModel)
@@ -124,7 +122,7 @@ describe('Operations', function () {
             for (let i = 0; i < VIDEOS.length; i++) {
                 const video_id = VIDEOS[i];
 
-                let data = await TwitchGQL.client.GetVideoMoments(video_id);
+                let data = await TwitchGQL.GetVideoMoments(video_id);
                 let moments = data[0].data.video.moments.edges.map(
                     (i) => i.node
                 );
@@ -157,7 +155,7 @@ describe('Operations', function () {
                 __typename: _.isString
             },
         };
-            let data = await TwitchGQL.client.GetVideoMetadata(USERS[0], VIDEOS[0]);
+            let data = await TwitchGQL.GetVideoMetadata(USERS[0], VIDEOS[0]);
             let video_metadata = data[0].data;
             
         expect(video_metadata).to.matchPattern(VideoMetadataModel)
@@ -180,13 +178,13 @@ describe('Operations', function () {
                 "sortTypeIsRecency":false,
                 "limit":100
             }
-            const directorypagegame = await TwitchGQL.client.GetDirectoryPageGame("tom clancy's rainbow six siege", opts)
+            const directorypagegame = await TwitchGQL.GetDirectoryPageGame("tom clancy's rainbow six siege", opts)
 
         expect(directorypagegame[0].data.game).to.matchPattern(UserModel)
     });
 
     it('GetLiveStatusNull', async function () {
-        const status = await TwitchGQL.client.GetLiveStatus('d')
+        const status = await TwitchGQL.GetLiveStatus('d')
         expect(status).to.be.null
     });
 });
@@ -203,7 +201,7 @@ describe('Queries', function () {
             roles: _.isObject,
             stream: _.isNull
         };
-            let data = await TwitchGQL.client._SendQuery("GET_USER", {
+            let data = await TwitchGQL._SendQuery("GET_USER", {
                 login: 'zaarrg',
             }, null, null, false, {}, false);
             const user = data.data.user;
@@ -226,7 +224,7 @@ describe('Queries', function () {
             __typename: String
         };
 
-            const data = await TwitchGQL.client._SendQuery("ViewerDropsDashboard", {}, '', process.env.TWITCH_OAUTH_TOKEN, true, {}, false)
+            const data = await TwitchGQL._SendQuery("ViewerDropsDashboard", {}, '', process.env.TWITCH_OAUTH_TOKEN, true, {}, false)
             const campaign = data[0].data.currentUser.dropCampaigns;
 
         expect(campaign[0]).to.matchPattern(UserModel)
@@ -243,7 +241,7 @@ describe('Queries', function () {
             __typename: String
         };
 
-            const Inventory = await TwitchGQL.client._SendQuery("Inventory", {}, '27f074f54ff74e0b05c8244ef2667180c2f911255e589ccd693a1a52ccca7367', process.env.TWITCH_OAUTH_TOKEN, true, {}, false)
+            const Inventory = await TwitchGQL._SendQuery("Inventory", {}, '27f074f54ff74e0b05c8244ef2667180c2f911255e589ccd693a1a52ccca7367', process.env.TWITCH_OAUTH_TOKEN, true, {}, false)
             let user = Inventory[0].data.currentUser
 
         expect(user).to.matchPattern(UserModel)
@@ -261,18 +259,18 @@ describe('Queries', function () {
                 "claimID": "66d685be-daf6-44a5-b135-b0d7086592c8"
             }
         }
-        const Claim = await TwitchGQL.client._SendQuery("ClaimCommunityPoints", variable, '46aaeebe02c99afdf4fc97c7c0cba964124bf6b0af229395f1f6d1feed05b3d0', process.env.TWITCH_OAUTH_TOKEN, true, {}, true)
+        const Claim = await TwitchGQL._SendQuery("ClaimCommunityPoints", variable, '46aaeebe02c99afdf4fc97c7c0cba964124bf6b0af229395f1f6d1feed05b3d0', process.env.TWITCH_OAUTH_TOKEN, true, {}, true)
         expect(Claim[0]).to.matchPattern(UserModel)
     });
 });
 
 describe('ERRORS', function () {
     it('Error Test', async function () {
-        this.timeout(8000);
-        await TwitchGQL.client.SetRetryTimeout(1000)
+        this.timeout(9000);
+        await TwitchGQL.SetRetryTimeout(1000)
 
         try {
-            await TwitchGQL.client._SendQuery("", {}, '', '', true)
+            await TwitchGQL._SendQuery("", {}, '', '', true)
             chai.should().fail("Query Should have failed...")
         } catch (e) {}
 

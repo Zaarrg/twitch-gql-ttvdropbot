@@ -1,9 +1,8 @@
-import TwitchGQL from "../index.js";
-TwitchGQL.Init();
+const TwitchGQL = require("..").Init();
 
 (async () => {
     
-    await TwitchGQL.client.SetRetryTimeout(1000)
+    await TwitchGQL.SetRetryTimeout(1000)
     
     let varo = {
         "input": {
@@ -12,10 +11,10 @@ TwitchGQL.Init();
         }
     }
     
-    const Inventory = await TwitchGQL.client._SendQuery("ClaimCommunityPoints", varo, '46aaeebe02c99afdf4fc97c7c0cba964124bf6b0af229395f1f6d1feed05b3d0', process.env.TWITCH_OAUTH_TOKEN, true)
+    const Inventory = await TwitchGQL._SendQuery("ClaimCommunityPoints", varo, '46aaeebe02c99afdf4fc97c7c0cba964124bf6b0af229395f1f6d1feed05b3d0', process.env.TWITCH_OAUTH_TOKEN, true, {}, true)
     console.log(Inventory)
 
-    const status = await TwitchGQL.client.GetLiveStatus('marty_vole')
+    const status = await TwitchGQL.GetLiveStatus('marty_vole')
     console.log(status)
 })();
 

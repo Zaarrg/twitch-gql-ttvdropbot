@@ -1,5 +1,5 @@
-import fs from "fs"
-import fetch from 'node-fetch';
+const fs = require("fs");
+const fetch = require("node-fetch")
 
 const Operation_Hashes = {
     'CollectionSideBar': '27111f1b382effad0b6def325caef1909c733fe6a4fbabf54f8d491ef2cf2f14',
@@ -25,7 +25,7 @@ const GraphQL = {
     retrytimeout: 60000,
     maxretries: 4,
 
-    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = true) => {
+    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = false) => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
     
@@ -159,4 +159,4 @@ async function delay(ms) {
     return await new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export default GraphQL;
+module.exports = GraphQL;

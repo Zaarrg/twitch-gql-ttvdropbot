@@ -3,12 +3,11 @@
   "version": "1.6.0",
   "description": "Allows interaction with Twitch inner GQL, modified for TTVDropBot",
   "main": "index.js",
-  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "node-fetch": "^3.2.10"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "chai": "^4.3.6",

@@ -1,5 +1,4 @@
-import TwitchGQL from "../index.js";
-TwitchGQL.Init();
+const TwitchGQL = require("..").Init();
 
 (async () => {
     let opts = {
@@ -11,7 +10,7 @@ TwitchGQL.Init();
         sortTypeIsRecency: false
     }
 
-    const directorypagegame = await TwitchGQL.client.GetDirectoryPageGame("smite", opts)
+    const directorypagegame = await TwitchGQL.GetDirectoryPageGame("smite", opts)
     console.log(directorypagegame[0].data.game)
     
     console.log(directorypagegame[0].data.game.streams.edges[0])

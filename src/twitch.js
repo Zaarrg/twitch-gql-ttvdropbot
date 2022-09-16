@@ -1,4 +1,4 @@
-import GraphQL from "./graphql.js";
+const GraphQL = require("./graphql");
 
 const Twitch = {
     async SetClientID(ClientID) {
@@ -80,9 +80,9 @@ const Twitch = {
             return livestatus[0].data.user.stream != null
         }
     },
-    async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, headers = {}, Integrity = true) {
+    async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, headers = {}, Integrity = false) {
         return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, headers, Integrity);
     }
 };
 
-export default Twitch;
+module.exports = Twitch;

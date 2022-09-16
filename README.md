@@ -18,11 +18,10 @@ Install it from [npm](https://github.com/Zaarrg/twitch-gql-ttvdropbot):
 Head over to the `examples/` directory for examples.
 
 ```js
-import TwitchGQL from "../index.js";
-TwitchGQL.Init();
+const TwitchGQL = require("..").Init();
 
 (async () => {
-    let CurrentTopStreams = await TwitchGQL.client.GetTopStreams();
+    let CurrentTopStreams = await TwitchGQL.GetTopStreams();
     CurrentTopStreams = CurrentTopStreams.data.streams.edges;
 
     console.log(CurrentTopStreams);
@@ -108,7 +107,7 @@ Set the maximum of Retries.
 
 - `headers` - Add more headers to the request Format: ({'Cookie': '...'})
 
-- `integrity` - (default true) if `false` will skip the integrity check
+- `integrity` - (default false) if `true` will add the integrity check to the request
 
 Send a raw query through GraphQL
 
