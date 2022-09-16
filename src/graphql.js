@@ -31,12 +31,9 @@ const GraphQL = {
     
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
-    
-        let path = './queries'
-        
         
         if (!preset) {
-            body.query = fs.readFileSync(`././queries/${QueryName}.gql`, "UTF-8");
+            body.query = fs.readFileSync(`${__dirname}/../queries/${QueryName}.gql`, "UTF-8");
         }
         else {
             body.operationName = QueryName;
