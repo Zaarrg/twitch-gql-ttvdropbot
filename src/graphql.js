@@ -49,12 +49,10 @@ const GraphQL = {
         
         if (Integrity) {
             //Integrity
-            let client = GraphQL.ClientID
             let session = ''
             let deviceid = ''
             let version = ''
             let integrity = ''
-            let auth = ''
 
             //session + device + client
             const response = await fetch('https://twitch.tv');
@@ -86,7 +84,7 @@ const GraphQL = {
                     'Client-Session-Id': session,
                     'X-Device-Id': deviceid,
                     'Client-Version': version,
-                    'Authorization': 'OAuth 8ia1omq99s6w5rlj33cegviylcc3m3'
+                    'Authorization': OAuth
                 }
             });
             const data = await result.json();
